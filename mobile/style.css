@@ -1,0 +1,90 @@
+/*GERAIS*/
+body {
+    background-image: url("imgs/background.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20rem;
+    height: 35.5rem;
+}
+
+
+
+
+/*MAINS VIA CLASSE*/
+.login-main {
+    width: 17.5rem;
+    height: 31.25rem;
+}
+
+.cadastro-main {
+    width: 16.25rem;
+    height: 17.5rem;
+}
+
+
+/*CLASSES MODELO BOOTSTRAP*/
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    backdrop-filter: blur(0.625rem);
+    -webkit-backdrop-filter: blur(0.625rem);
+    /*apple*/
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 1.25rem;
+}
+
+.java-foto {
+    width: 8rem;
+    height: 8rem;
+}
+
+.java-foto-2 {
+    width: 3.8rem;
+    height: 3.8rem;
+}
+
+.text-input {
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border-style: none;
+}
+
+.text-input-2 {
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border-style: none;
+}
+
+.text-input-3 {
+    width: 12.8rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border-style: none;
+}
+
+.entrar-button {
+    width: 11rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border-style: none;
+}
+
+.outro-button {
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border-style: none;
+}
+
+/*LOGIN*/
+
+
+
+
+
+/*CADASTRO*/
