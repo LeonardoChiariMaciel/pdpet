@@ -5,27 +5,35 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 20rem;
-    height: 35.5rem;
+    height: 100vh;
+    width: 100vw;
 }
 
+bg-header {
+    background-image: url("imgs/background-header.png");
+}
 
 
 
 /*MAINS VIA CLASSE*/
 .login-main {
-    width: 17.5rem;
-    height: 31.25rem;
+    width: clamp(280px, 87.5vw, 672px);
+    height: clamp(500px, 88vh, 820px);
+    max-width: 90vw;
 }
 
 .cadastro-main {
-    width: 16.25rem;
-    height: 17.5rem;
+    /*width: 16.25rem;
+    height: 17.5rem;*/
+    width: clamp(260px, 81.25vw, 624px);
+    height: clamp(260px, 50vh, 466px);
+    max-width: 90vw;
 }
 
 .recuperar-main {
-    width: 17.5rem;
-    height: 25rem;
+    width: clamp(280px, 87.5vw, 672px); /*280 é o tamanho no SE, 87.5 é a porc da tela e 672 é o tamanho no iphone gigante*/
+    height: clamp(400px, 70vh, 656px);
+    max-width: 90vw;
 }
 
 /*CLASSES MODELO BOOTSTRAP*/
@@ -48,6 +56,11 @@ body {
 .java-foto-2 {
     width: 3.8rem;
     height: 3.8rem;
+}
+
+.java-foto-header {
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .text-input {
