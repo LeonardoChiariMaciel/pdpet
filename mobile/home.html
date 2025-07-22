@@ -1,13 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>PD Pet - Home</title>
 </head>
+
 <body>
-    
+
+    <header class="custom-header p-3 text-white d-flex align-items-center justify-content-between">
+
+        <div class="header-col">
+            <a href="#">
+                <img src="imgs/icone-no-background.png" alt="Ícone PD Pet" style="width: 45px;">
+            </a>
+        </div>
+
+        <div class="header-col text-center">
+            <h1 class="header-title">PD PET</h1>
+        </div>
+
+        <div class="header-col text-end">
+            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#menuCollapse"
+                aria-expanded="false" aria-controls="menuCollapse">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="collapse" id="menuCollapse">
+        <div class="list-group list-group-flush">
+            <a href="#"
+                class="list-group-item list-group-item-action bg-transparent text-white text-center py-3">Veterinária</a>
+            <a href="#"
+                class="list-group-item list-group-item-action bg-transparent text-white text-center py-3">Vendas</a>
+            <a href="#"
+                class="list-group-item list-group-item-action bg-transparent text-white text-center py-3">Dicas</a>
+            <a href="#"
+                class="list-group-item list-group-item-action bg-transparent text-white text-center py-3">Sobre</a>
+            <a href="#"
+                class="list-group-item list-group-item-action bg-transparent text-white text-center py-3">Sair</a>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
