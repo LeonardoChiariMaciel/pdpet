@@ -12,42 +12,48 @@
 
 <body>
 
-    <header class="custom-header p-3 text-white d-flex align-items-center justify-content-between">
+    <header class="custom-header container-fluid">
+        <div class="p-3 text-white d-flex align-items-center justify-content-between">
 
-        <div class="header-col">
-            <a href="#">
-                <img src="imgs/icone-no-background.png" alt="Ícone PD Pet" style="width: 45px;">
-            </a>
-        </div>
 
-        <div class="header-col text-center">
-            <h1 class="header-title">PD PET</h1>
-        </div>
+            <div class="header-col">
+                <a href="#">
+                    <img src="imgs/icone-no-background.png" alt="Ícone PD Pet" class="java-icone">
+                </a>
+            </div>
 
-        <div class="header-col text-end">
-            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#menuCollapse"
-                aria-expanded="false" aria-controls="menuCollapse">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
-                    viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-                </svg>
-            </button>
+            <div class="header-col text-center">
+                <h1 class="header-title">
+                    <span class="header-title-pd">PD</span><span class="header-title-pet">PET</span>
+                </h1>
+            </div>
+
+            <div class="header-col text-end">
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#menuCollapse"
+                    aria-expanded="false" aria-controls="menuCollapse">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                    </svg> -->
+                    <img src="">
+                </button>
+            </div>
         </div>
     </header>
 
-    <div class="collapse" id="menuCollapse">
-        <div class="list-group list-group-flush">
+    <div class="collapse header-menu-container py-2" id="menuCollapse">
+        <div class="list-group list-group-flush d-flex flex-column align-items-center">
             <a href="#"
-                class="list-group-item list-group-item-action bg-transparent text-white text-center py-3">Veterinária</a>
+                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Veterinária</a>
             <a href="#"
-                class="list-group-item list-group-item-action bg-transparent text-white text-center py-3">Vendas</a>
+                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Vendas</a>
             <a href="#"
-                class="list-group-item list-group-item-action bg-transparent text-white text-center py-3">Dicas</a>
+                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Dicas</a>
             <a href="#"
-                class="list-group-item list-group-item-action bg-transparent text-white text-center py-3">Sobre</a>
+                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Sobre</a>
             <a href="#"
-                class="list-group-item list-group-item-action bg-transparent text-white text-center py-3">Sair</a>
+                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Sair</a>
         </div>
     </div>
 
