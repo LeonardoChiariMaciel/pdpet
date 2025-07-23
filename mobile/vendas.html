@@ -11,25 +11,235 @@
     <title>PD Pet - Editar Perfil</title>
 </head>
 <body>
-    <main>
+    <header class="custom-header container-fluid">
+        <div class="p-3 text-white d-flex align-items-center justify-content-between">
+
+
+            <div class="header-col">
+                <a href="#">
+                    <img src="imgs/icones/icone-no-background.png" alt="Ícone PD Pet" class="java-icone">
+                </a>
+            </div>
+
+            <div class="header-col text-center">
+                <h1 class="header-title">
+                    <span class="header-title-pd">PD</span><span class="header-title-pet">PET</span>
+                </h1>
+            </div>
+
+            <div class="header-col">
+                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#menuCollapse"
+                    aria-expanded="false" aria-controls="menuCollapse">
+                    <img src="imgs/icones/seta-menu-baixo-azul.svg" alt="Menu" class="menu-icon">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="collapse header-menu-container py-2" id="menuCollapse">
+        <div class="list-group list-group-flush d-flex flex-column align-items-center">
+            <a href="#"
+                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Veterinária</a>
+            <a href="#"
+                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Vendas</a>
+            <a href="#"
+                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Dicas</a>
+            <a href="#"
+                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Sobre</a>
+            <a href="#"
+                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Sair</a>
+        </div>
+    </div>
+
+    <section id="produtos/servicos" class="d-flex flex-column align-items-center gap-2 mt-4 mb-4">
+        <button class="botoes-vendas rounded-2 f16 semibold">Produtos</button>
+        <button class="botoes-vendas rounded-2 f16 semibold">Serviços</button>
+    </section>
+
+    <main class="d-flex flex-column gap-4">
         <section>
             <h2 class="ms-2 f16 semibold">Recomendados do mês</h2>
             <div id="agrupador-de-cards" class="d-flex flex-row gap-2 ms-2 me-1 mt-2">
                 <div class="unidade-carrossel ps-1 pe-1">
                     <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
                     <img class="img-produto" src="imgs/produtos/capivara.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
                     <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
                     <p class="f10 medium">R$ 79,99</p>
                 </div>
                 <div class="unidade-carrossel ps-1 pe-1">
                     <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
                     <img class="img-produto" src="imgs/produtos/racao-verde.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
                     <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
                     <p class="f10 medium">R$ 79,99</p>
                 </div>
                 <div class="unidade-carrossel ps-1 pe-1">
                     <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
                     <img class="img-produto" src="imgs/produtos/racao-azul.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/bebedouro.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/cama-dicas.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/produto 4.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="ms-2 f16 semibold">Serviços em alta</h2>
+            <div id="agrupador-de-cards" class="d-flex flex-row gap-2 ms-2 me-1 mt-2">
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/produto3.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/produto5.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/promo1.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/promo2.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/promo3.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/promo4.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="ms-2 f16 semibold">Cuidados Especiais</h2>
+            <div id="agrupador-de-cards" class="d-flex flex-row gap-2 ms-2 me-1 mt-2">
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/promo5.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/promo6.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/racao-azul.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/racao-azul.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/racao-azul.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/racao-azul.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="ms-2 f16 semibold">Pensados para o seu PET</h2>
+            <div id="agrupador-de-cards" class="d-flex flex-row gap-2 ms-2 me-1 mt-2">
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/capivara.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/racao-verde.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/racao-azul.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/racao-azul.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/racao-azul.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
+                    <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
+                    <p class="f10 medium">R$ 79,99</p>
+                </div>
+                <div class="unidade-carrossel ps-1 pe-1">
+                    <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                    <img class="img-produto" src="imgs/produtos/racao-azul.jpg">
+                    <img class="botao-mais" src="imgs/icones/mais.png">
                     <p class="f8 regular">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
                     <p class="f10 medium">R$ 79,99</p>
                 </div>
