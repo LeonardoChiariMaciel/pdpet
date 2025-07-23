@@ -18,7 +18,7 @@ bg-header {
 /*MAINS VIA CLASSE*/
 .login-main {
     width: clamp(280px, 87.5vw, 672px);
-    height: clamp(500px, 88vh, 820px);
+    height: clamp(500px, 88vh, 600px);
     max-width: 90vw;
 }
 
@@ -43,7 +43,7 @@ bg-header {
     backdrop-filter: blur(0.625rem);
     -webkit-backdrop-filter: blur(0.625rem);
     /*apple*/
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgb(255, 255, 255);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     padding: 1.25rem;
 }
@@ -64,8 +64,8 @@ bg-header {
 }
 
 .text-input {
-    width: 15rem;
-    height: 2.5rem;
+    width: clamp(240px, 75vw, 322px);
+    height: clamp(40px, 7vh, 66px);
     border-radius: 0.5rem;
     border-style: none;
 }
@@ -97,6 +97,16 @@ bg-header {
     border-radius: 0.5rem;
     border-style: none;
 }
+
+/*CARROSEEL*/
+.img-produto {
+    width: clamp(97px, 30vw, 130px);
+    height: clamp(79px, 13vh, 129);
+}
+
+
+
+
 
 /*LOGIN*/
 
