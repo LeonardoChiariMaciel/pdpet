@@ -164,3 +164,42 @@ bg-header {
 
 
 /*CADASTRO*/
+
+
+
+
+/* HEADER */
+
+.custom-header {
+    width: 100%;
+    max-width: 50rem;
+    background-color: #c6ddd1bb;
+}
+
+.java-icone {
+    width: 2.75rem;
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.header-title-pd {
+    color: #10203D;
+}
+
+.header-title-pet {
+    color: #71C483;
+}
+
+.header-menu-container {
+    background-color: #0000009a;
+}
+
+.header-menu-item {
+    color: #ffffff;
+    width: 90%;
+}
