@@ -234,14 +234,6 @@ bg-header {
     transition: opacity 0.5s ease, transform 0.3s ease;
 }
 
-<<<<<<< HEAD
-/*VENDAS*/
-.botoes-vendas{
-    width: clamp(256px, 100vw, 344px);
-    height: clamp(36px, 6vh, 38px);
-    border-style: none;
-
-=======
 .inner-header .btn:active {
     border: none !important;
 }
@@ -257,5 +249,11 @@ bg-header {
 
 .header-menu-container, .collapse.show .header-menu-item {
     opacity: 1;
->>>>>>> home
+}
+
+/*VENDAS*/
+.botoes-vendas{
+    width: clamp(256px, 100vw, 344px);
+    height: clamp(36px, 6vh, 38px);
+    border-style: none;
 }
