@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>PD Pet - Produtos</title>
+</head>
+
+<body>
+    <header class="custom-header">
+        <div class="inner-header container-fluid p-3 text-white d-flex align-items-center justify-content-between">
+
+            <div class="header-col">
+                <a href="editar-perfil.html">
+                    <img src="imgs/icones/icone-no-background.png" alt="Ícone PD Pet" class="java-icone">
+                </a>
+            </div>
+
+            <div class="header-col text-center">
+                <a href="home.html" class="text-decoration-none">
+                    <h1 class="header-title">
+                        <span class="header-title-pd">PD</span><span class="header-title-pet">PET</span>
+                    </h1>
+                </a>
+            </div>
+
+            <div class="header-col">
+                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#menuCollapse"
+                    aria-expanded="false" aria-controls="menuCollapse">
+                    <img src="imgs/icones/seta-menu-baixo-azul.svg" alt="Menu" class="menu-icon">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="collapse header-menu-container py-2" id="menuCollapse">
+        <div class="list-group list-group-flush d-flex flex-column align-items-center">
+            <a href="veterinaria.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Veterinária</a>
+            <a href="vendas.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Vendas</a>
+            <a href="dicas.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Dicas</a>
+            <a href="sobre.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Sobre</a>
+            <a href="index.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Sair</a>
+        </div>
+    </section>
+
+
+    <main class="d-flex flex-column gap-4">
+
+        <section>
+            <button
+                class="border-radius-bottom-0 clamp-mobile btn d-flex flex-row justify-content-between p-4 m-auto mt-3 border-0 f20 regular bg-white opacity-80 rounded-top"
+                type="button" data-bs-toggle="collapse" data-bs-target="#categoriasCollapse" aria-expanded="false"
+                aria-controls="categoriasCollapse">
+                Categorias
+                <img src="imgs/icones/seta-menu-baixo-azul.svg" alt="Menu" class="menu-icon">
+            </button>
+            <div class="collapse bg-light-80 clamp-mobile m-auto py-2 rounded-bottom" id="categoriasCollapse">
+                <div class="list-group list-group-flush d-flex flex-column align-items-center">
+                    <a href="#"
+                        class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Cães</a>
+                    <a href="#"
+                        class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Gatos</a>
+                    <a href="#"
+                        class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Roedores</a>
+                    <a href="#"
+                        class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Aves</a>
+                    <a href="#"
+                        class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Suínos</a>
+                    <a href="#"
+                        class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Bovinos</a>
+                    <a href="#"
+                        class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Outros</a>
+                </div>
+            </div>
+        </section>
+
+        <article class="clamp-mobile bg-light-80 card d-flex flex-column align-items-center m-auto rounded-3">
+            <a href="produto.html" class="w-95 m-2">
+                <img class="w-100 rounded-3" src="imgs/produtos/produto 4.jpg" alt="Produto 1">
+            </a>
+            <a href="produto.html" class="text-decoration-none link-dark">
+                <p class="f12 medium px-3">Antipulgas e Carrapatos NexGard Spectra para Cães de 15,1 a 30Kg</p>
+            </a>
+            <div class="w-75 d-flex flex-row justify-content-between align-items-center pb-3">
+                <p class="f14 semibold mb-0">R$ 126,29</p>
+                <a href="carrinho.html" class="text-decoration-none">
+                    <img src="imgs/icones/carrinho.png" class="icon-2-5" alt="Adicionar ao carrinho">
+                </a>
+            </div>
+        </article>
+
+        <article class="clamp-mobile bg-light-80 card d-flex flex-column align-items-center m-auto rounded-3">
+            <a href="produto.html" class="w-95 m-2">
+                <img class="w-100 rounded-3" src="imgs/produtos/capivara.jpg" alt="Produto 1">
+            </a>
+            <a href="produto.html" class="text-decoration-none link-dark">
+                <p class="f12 medium px-3">Antipulgas e Carrapatos NexGard Spectra para Cães de 15,1 a 30Kg</p>
+            </a>
+            <div class="w-75 d-flex flex-row justify-content-between align-items-center pb-3">
+                <p class="f14 semibold mb-0">R$ 126,29</p>
+                <a href="carrinho.html" class="text-decoration-none">
+                    <img src="imgs/icones/carrinho.png" class="icon-2-5" alt="Adicionar ao carrinho">
+                </a>
+            </div>
+        </article>
+
+        <article class="clamp-mobile bg-light-80 card d-flex flex-column align-items-center m-auto rounded-3">
+            <a href="produto.html" class="w-95 m-2">
+                <img class="w-100 rounded-3" src="imgs/produtos/racao-azul.jpg" alt="Produto 1">
+            </a>
+            <a href="produto.html" class="text-decoration-none link-dark">
+                <p class="f12 medium px-3">Antipulgas e Carrapatos NexGard Spectra para Cães de 15,1 a 30Kg</p>
+            </a>
+            <div class="w-75 d-flex flex-row justify-content-between align-items-center pb-3">
+                <p class="f14 semibold mb-0">R$ 126,29</p>
+                <a href="carrinho.html" class="text-decoration-none">
+                    <img src="imgs/icones/carrinho.png" class="icon-2-5" alt="Adicionar ao carrinho">
+                </a>
+            </div>
+        </article>
+
+        <article class="clamp-mobile bg-light-80 card d-flex flex-column align-items-center m-auto rounded-3">
+            <a href="produto.html" class="w-95 m-2">
+                <img class="w-100 rounded-3" src="imgs/produtos/racao-verde.jpg" alt="Produto 1">
+            </a>
+            <a href="produto.html" class="text-decoration-none link-dark">
+                <p class="f12 medium px-3">Antipulgas e Carrapatos NexGard Spectra para Cães de 15,1 a 30Kg</p>
+            </a>
+            <div class="w-75 d-flex flex-row justify-content-between align-items-center pb-3">
+                <p class="f14 semibold mb-0">R$ 126,29</p>
+                <a href="carrinho.html" class="text-decoration-none">
+                    <img src="imgs/icones/carrinho.png" class="icon-2-5" alt="Adicionar ao carrinho">
+                </a>
+            </div>
+        </article>
+
+        <br>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
