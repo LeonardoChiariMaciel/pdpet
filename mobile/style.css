@@ -41,6 +41,9 @@ body {
 .f18 {
     font-size: 18px;
 }
+.f24 {
+    font-size: 24px;
+}
 
 
 
@@ -285,4 +288,41 @@ bg-header {
     width: clamp(256px, 100vw, 344px);
     height: clamp(36px, 6vh, 38px);
     border-style: none;
+}
+
+/*APRESENTAÇÃO*/
+#apresenta-titulo {
+    background-color: white;
+    width: clamp(256px, 80vw, 344px);
+    height: clamp(58px, 10.2vh, 95px);
+    text-align: center;
+}
+
+.apresenta-produto {
+    width: clamp(256px, 80vw, 344px);
+    height: clamp(262px, 46.12vh, 430);
+}
+
+#apresenta-article {
+    background-color: white;
+    width: clamp(256px, 80vw, 344px);
+    text-align: center;
+}
+
+#apresenta-finais{
+    width: clamp(256px, 80vw, 344px);
+}
+
+#apresenta-preco {
+    width: clamp(147px, 45.93vw, 197.5px);
+    background-color: white;
+}
+
+#apresenta-carrinho {
+    background-color: white;
+    width: clamp(101px, 31.5vw, 135.7px);
+}
+
+#imagem-carrinho {
+    width: clamp(44px, 13.75vw, 59.125px);
 }
