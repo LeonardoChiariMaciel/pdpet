@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>PD Pet - Editar Perfil</title>
+</head>
+
+<body>
+    <header class="custom-header">
+        <div class="inner-header container-fluid p-3 text-white d-flex align-items-center justify-content-between">
+
+            <div class="header-col">
+                <a href="editar-perfil.html">
+                    <img src="imgs/icones/icone-no-background.png" alt="Ícone PD Pet" class="icon-2-8">
+                </a>
+            </div>
+
+            <div class="header-col text-center">
+                <a href="home.html" class="text-decoration-none">
+                    <h1 class="header-title">
+                        <span class="header-title-pd">PD</span><span class="header-title-pet">PET</span>
+                    </h1>
+                </a>
+            </div>
+
+            <div class="header-col">
+                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#menuCollapse"
+                    aria-expanded="false" aria-controls="menuCollapse">
+                    <img src="imgs/icones/seta-menu-baixo-azul.svg" alt="Menu" class="menu-icon">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="collapse header-menu-container py-2" id="menuCollapse">
+        <div class="list-group list-group-flush d-flex flex-column align-items-center">
+            <a href="veterinaria.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Veterinária</a>
+            <a href="vendas.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Vendas</a>
+            <a href="dicas.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Dicas</a>
+            <a href="sobre.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Sobre</a>
+            <a href="index.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Sair</a>
+        </div>
+    </section>
+
+    <main class="m-auto clamp-mobile">
+        <section class="glass d-flex flex-column align-items-center justify-content-between gap-2">
+
+            <div class="d-flex align-items-center justify-content-around p-2">
+                <img class="icon-3-8" src="imgs/icones/icone-no-background.png">
+                <input class="w-60 rounded-3 border-0 p-2" type="text" placeholder="Nome">
+            </div>
+            <input class="w-85 rounded-3 border-0 p-2" type="text" placeholder="CPF">
+            <input class="w-85 rounded-3 border-0 p-2" type="text" placeholder="Email">
+            <input class="w-85 rounded-3 border-0 p-2" type="text" placeholder="Senha">
+            <input class="w-85 rounded-3 border-0 p-2" type="text" placeholder="CEP">
+            <select class="form-select w-85 p-2 rounded-3 border-0" style="font-size: 1rem;">
+                <option value="" disabled selected>UF</option>
+                <option value="RJ">RJ</option>
+                <option value="SP">SP</option>
+                <option value="MG">MG</option>
+                <option value="DF">DF</option>
+                <option value="SC">SC</option>
+                <option value="PR">PR</option>
+                <option value="ES">ES</option>
+            </select>
+            <input class="w-85 rounded-3 border-0 p-2" type="text" placeholder="Logradouro">
+            <input class="w-85 rounded-3 border-0 p-2" type="text" placeholder="Número">
+            <input class="w-85 rounded-3 border-0 p-2" type="text" placeholder="Complemento">
+            <input class="w-85 rounded-3 border-0 p-2" type="text" placeholder="Referência">
+
+            <a href="index.html" class="w-60 f-10 m-auto"><button
+                    class="w-100 f-10 py-1 rounded-3 border-0">Editar</button></a>
+        </section>
+    </main>
+    <br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
