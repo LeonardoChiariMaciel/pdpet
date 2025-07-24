@@ -85,14 +85,29 @@ bg-header {
     padding: 1.25rem;
 }
 
+.icon-8 {
+    width: 8rem;
+    height: 8rem;
+}
+
 .java-foto {
     width: 8rem;
     height: 8rem;
 }
 
+.icon-3-8 {
+    width: 3.8rem;
+    height: 3.8rem;
+}
+
 .java-foto-2 {
     width: 3.8rem;
     height: 3.8rem;
+}
+
+.icon-2-5 {
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .java-foto-header {
@@ -133,6 +148,13 @@ bg-header {
     height: 2.5rem;
     border-radius: 0.5rem;
     border-style: none;
+}
+
+.bg-light-80 {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.bg-light-90 {
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 /*CARROSEEL*/
@@ -249,6 +271,13 @@ bg-header {
 
 .header-menu-container, .collapse.show .header-menu-item {
     opacity: 1;
+}
+
+
+/* HOME */
+
+.card-emergencia-home {
+    max-width: 30rem;
 }
 
 /*VENDAS*/
