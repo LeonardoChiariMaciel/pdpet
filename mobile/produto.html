@@ -11,20 +11,22 @@
     <title>PD Pet - Editar Perfil</title>
 </head>
 <body>
-    <header class="custom-header container-fluid">
-        <div class="p-3 text-white d-flex align-items-center justify-content-between">
-
+    
+    <header class="custom-header">
+        <div class="inner-header container-fluid p-3 text-white d-flex align-items-center justify-content-between">
 
             <div class="header-col">
-                <a href="#">
+                <a href="editar-perfil.html">
                     <img src="imgs/icones/icone-no-background.png" alt="Ícone PD Pet" class="java-icone">
                 </a>
             </div>
 
             <div class="header-col text-center">
-                <h1 class="header-title">
-                    <span class="header-title-pd">PD</span><span class="header-title-pet">PET</span>
-                </h1>
+                <a href="home.html" class="text-decoration-none">
+                    <h1 class="header-title">
+                        <span class="header-title-pd">PD</span><span class="header-title-pet">PET</span>
+                    </h1>
+                </a>
             </div>
 
             <div class="header-col">
@@ -36,37 +38,38 @@
         </div>
     </header>
 
-    <div class="collapse header-menu-container py-2" id="menuCollapse">
+    <section class="collapse header-menu-container py-2" id="menuCollapse">
         <div class="list-group list-group-flush d-flex flex-column align-items-center">
-            <a href="#"
-                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Veterinária</a>
-            <a href="#"
-                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Vendas</a>
-            <a href="#"
-                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Dicas</a>
-            <a href="#"
-                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Sobre</a>
-            <a href="#"
-                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Sair</a>
+            <a href="veterinaria.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Veterinária</a>
+            <a href="vendas.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Vendas</a>
+            <a href="dicas.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Dicas</a>
+            <a href="sobre.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Sobre</a>
+            <a href="index.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Sair</a>
         </div>
-    </div>
+    </section>
 
     <main class="d-flex flex-column gap-2 align-items-center mt-2 mb-2">
         <section id="apresenta-titulo" class="d-flex justify-content-center align-items-center rounded-2 p-1">
-            <p class="mt-3 f12 medium">Antipulgas e Carrapatos NexGard Spectra para Cães de 15,1 a 30kg</p>
+            <p class="mt-3 f14 medium">Antipulgas e Carrapatos NexGard Spectra para Cães de 15,1 a 30kg</p>
         </section>
         <img class="apresenta-produto rounded-2" src="imgs/produtos/produto 4.jpg">
         <article id="apresenta-article" class="rounded-2 p-1">
-            <p class="f10 regular">Antipulgas e Carrapatos NexGard Spectra para Cães de 7,6 a 15kg. Não há contraindicações conhecidas para o uso. Não administrar em cães com hipersensibilidade ao(s) princípio(s) ativo(s) e/ou a algum dos excipientes do produto, humanos ou gatos.</p>
+            <p class="f12 regular">Antipulgas e Carrapatos NexGard Spectra para Cães de 7,6 a 15kg. Não há contraindicações conhecidas para o uso. Não administrar em cães com hipersensibilidade ao(s) princípio(s) ativo(s) e/ou a algum dos excipientes do produto, humanos ou gatos.</p>
         </article>
         <section id="apresenta-finais" class="d-flex flex-row justify-content-between">
             <div id="apresenta-preco" class="d-flex justify-content-center align-items-center rounded-2">
                 <p class="f24 regular mt-3">R$ 126,29</p>
             </div>
-            <div id="apresenta-carrinho" class="d-flex justify-content-center align-items-center rounded-2">
+            <a href="carrinho.html" id="apresenta-carrinho" class="text-decoration-none d-flex justify-content-center align-items-center rounded-2">
                 <img src="imgs/icones/carrinho.png" id="imagem-carrinho">
-            </div>
+            </a>
         </section>
+        <br>
     </main>
 
 
