@@ -11,20 +11,22 @@
     <title>PD Pet - Editar Perfil</title>
 </head>
 <body>
-    <header class="custom-header container-fluid">
-        <div class="p-3 text-white d-flex align-items-center justify-content-between">
 
+    <header class="custom-header">
+        <div class="inner-header container-fluid p-3 text-white d-flex align-items-center justify-content-between">
 
             <div class="header-col">
-                <a href="#">
-                    <img src="imgs/icones/icone-no-background.png" alt="Ícone PD Pet" class="java-icone">
+                <a href="editar-perfil.html">
+                    <img src="imgs/icones/icone-no-background.png" alt="Ícone PD Pet" class="icon-2-8">
                 </a>
             </div>
 
             <div class="header-col text-center">
-                <h1 class="header-title">
-                    <span class="header-title-pd">PD</span><span class="header-title-pet">PET</span>
-                </h1>
+                <a href="home.html" class="text-decoration-none">
+                    <h1 class="header-title">
+                        <span class="header-title-pd">PD</span><span class="header-title-pet">PET</span>
+                    </h1>
+                </a>
             </div>
 
             <div class="header-col">
@@ -36,24 +38,25 @@
         </div>
     </header>
 
-    <div class="collapse header-menu-container py-2" id="menuCollapse">
+    <section class="collapse header-menu-container py-2" id="menuCollapse">
         <div class="list-group list-group-flush d-flex flex-column align-items-center">
-            <a href="#"
-                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Veterinária</a>
-            <a href="#"
-                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Vendas</a>
-            <a href="#"
-                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Dicas</a>
-            <a href="#"
-                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Sobre</a>
-            <a href="#"
-                class="header-menu-item list-group-item list-group-item-action rounded-4 text-center py-1 m-1 text-black">Sair</a>
+            <a href="veterinaria.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Veterinária</a>
+            <a href="vendas.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Vendas</a>
+            <a href="dicas.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Dicas</a>
+            <a href="sobre.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Sobre</a>
+            <a href="index.html"
+                class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Sair</a>
         </div>
-    </div>
+    </section>
+
 
     <section id="produtos/servicos" class="d-flex flex-column align-items-center gap-2 mt-4 mb-4">
-        <a href="home.html"><button class="botoes-vendas rounded-2 f16 semibold">Produtos</button></a>
-        <button class="botoes-vendas rounded-2 f16 semibold">Serviços</button>
+        <a href="produtos.html"><button class="clamp-mobile bg-light border-0 rounded-3 py-1 f16 semibold">Produtos</button></a>
+        <a href="servicos.html"><button class="clamp-mobile bg-light border-0 rounded-3 py-1 f16 semibold">Serviços</button></a>
     </section>
 
     <main class="d-flex flex-column gap-4">
