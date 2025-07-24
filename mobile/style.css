@@ -8,6 +8,7 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: "Inter";
+    object-fit: cover;
 }
 
 /*CLASSES PARA FONTES*/
@@ -40,6 +41,9 @@ body {
 }
 .f18 {
     font-size: 18px;
+}
+.f20 {
+    font-size: 20px !important;
 }
 .f24 {
     font-size: 24px;
@@ -88,6 +92,14 @@ bg-header {
     padding: 1.25rem;
 }
 
+.clamp-mobile {
+    width: clamp(256px, 80vw, 344px);
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
 .icon-8 {
     width: 8rem;
     height: 8rem;
@@ -111,6 +123,10 @@ bg-header {
 .icon-2-5 {
     width: 2.5rem;
     height: 2.5rem;
+}
+
+.w-95 {
+    width: 95%;
 }
 
 .java-foto-header {
@@ -158,6 +174,15 @@ bg-header {
 }
 .bg-light-90 {
     background-color: rgba(255, 255, 255, 0.9);
+}
+
+.opacity-80 {
+    opacity: 0.8;
+}
+
+.border-radius-bottom-0 {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
 }
 
 /*CARROSEEL*/
@@ -224,6 +249,10 @@ bg-header {
     max-width: 50rem;
 }
 
+.inner-header .btn:active {
+    border: none !important;
+}
+
 .java-icone {
     width: 2.75rem;
 }
@@ -259,9 +288,6 @@ bg-header {
     transition: opacity 0.5s ease, transform 0.3s ease;
 }
 
-.inner-header .btn:active {
-    border: none !important;
-}
 
 .menu-icon {
     transition: transform 0.35s ease;
@@ -280,7 +306,7 @@ bg-header {
 /* HOME */
 
 .card-emergencia-home {
-    max-width: 30rem;
+    width: clamp(280px, 87.5vw, 672px);
 }
 
 /*VENDAS*/
