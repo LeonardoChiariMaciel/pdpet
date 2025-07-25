@@ -117,7 +117,6 @@ p {
     width: 2.5rem;
     height: 2.5rem;
 }
-
 .icon-1 {
     width: 1rem;
 }
@@ -154,10 +153,9 @@ p {
 
 /*CARROSEEL*/
 .img-produto {
-    width: clamp(97px, 30vw, 110px);
-    height: clamp(79px, 13vh, 129);
-    border-radius: 8px;
-    position: block;
+    height: 6rem;
+    aspect-ratio: 1;
+    object-fit: fill;
 }
 
 .unidade-carrossel {
