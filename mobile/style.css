@@ -87,6 +87,10 @@ bg-header {
     width: clamp(256px, 80vw, 344px);
 }
 
+.clamp-mobile144 {
+    width: clamp(144px, 45vw, 193.5px);
+}
+
 p {
     margin-bottom: 0 !important;
 }
@@ -278,4 +282,46 @@ p {
 
 #imagem-carrinho {
     width: clamp(44px, 13.75vw, 59.125px);
+}
+
+/*VETERINÁRIA*/
+.botao-animal{
+    background-color: white;
+    margin-top: 5px;
+    width: clamp(104px, 32.5vw, 139.75px);
+    height: clamp(41px, 7.22vh, 67.27px);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+.informacoes-animal {
+    background-color: white;
+    width: 72.5%;
+    height: 84.5%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.foto-animal-vet {
+    width: clamp(90px, 28.125vw, 130px);
+    border-radius: 8px;
+}
+
+.botao-de-contato{
+    width: clamp(166px, 51.875vw, 223.06px);
+    border: 1px solid #000;
+    margin: 0 auto;
+    border-radius: 8px;
 }
