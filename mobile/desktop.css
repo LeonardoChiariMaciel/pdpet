@@ -1,0 +1,111 @@
+body {
+    background-image: url("imgs/servicos/take-to-the-vet.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Inter";
+    object-fit: cover;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 48, 77, 0.7);
+    z-index: 2;
+}
+
+/*CLASSES PARA FONTES*/
+.regular {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.f8 {
+    font-size: 8px;
+}
+.f10 {
+    font-size: 10px;
+}
+.f12 {
+    font-size: 12px;
+}
+.f14 {
+    font-size: 14px;
+}
+.f16 {
+    font-size: 16px;
+}
+.f18 {
+    font-size: 18px;
+}
+.f20 {
+    font-size: 20px !important;
+}
+.f22 {
+    font-size: 22px;
+}
+.f24 {
+    font-size: 24px;
+}
+.f26 {
+    font-size: 24px;
+}
+
+/*CORES DA PALETA*/
+.cinza{
+    color: #95adbf;
+}
+.bg-cinza{
+    background-color: #95adbf;
+}
+
+.verde{
+    color: #71c483;
+}
+.bg-verde{
+    background-color: #71c483;
+}
+
+
+.foto-perfil {
+    width: 11.375rem;
+}
+
+.input1 {
+    width: 21rem;
+    height: 4.5rem;
+    border-style: none;
+}
+
+.input1::placeholder {
+    font-size: 24;
+    font-weight: bold;
+}
+
+.input2 {
+    width: 14rem;
+    height: 3.5rem;
+    border-style: none;
+}
+
+.input2::placeholder {
+    font-size: 24;
+    font-weight: bold;
+}
