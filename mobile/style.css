@@ -302,7 +302,6 @@ p {
 
 .dicas-img {
     width: clamp(236px, 73.75vw, 317.125px);
-    margin: 0 auto;
 }
 
 .radius-8{
