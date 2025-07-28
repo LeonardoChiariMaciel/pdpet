@@ -267,10 +267,10 @@ p {
     transition: background-color 0.3s ease;
 }
 
-.botao-animal:hover {
+/*.botao-animal:hover {
     background-color: rgba(113, 196, 131, 0.6);
 
-}
+}*/
 
 .grid-2{
     display: grid;
