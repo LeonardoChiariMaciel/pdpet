@@ -307,3 +307,21 @@ p {
 .radius-8{
     border-radius: 0.5rem;
 }
+
+.java-sobre {
+    width: clamp(256px, 80vw, 344px);
+}
+
+.sobre-nos {
+    background-color: rgb(255, 255, 255, 0.8);
+    width: clamp(256px, 80vw, 344px);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.sobre-java {
+    background-color: rgb(255, 255, 255, 0.8);
+    width: clamp(256px, 80vw, 344px);
+    border-radius: 8px;
+    text-align: center;
+}
