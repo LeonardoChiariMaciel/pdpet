@@ -294,3 +294,17 @@ p {
     margin: 0 auto;
     border-radius: 8px;
 }
+
+.dicas-card {
+    background-color: white;
+    padding: 8px;
+}
+
+.dicas-img {
+    width: clamp(236px, 73.75vw, 317.125px);
+    margin: 0 auto;
+}
+
+.radius-8{
+    border-radius: 0.5rem;
+}
