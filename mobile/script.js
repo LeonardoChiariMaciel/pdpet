@@ -2,6 +2,7 @@ function toggleArticle(articleID) {
 
     const articles = document.querySelectorAll('article');
     articles.forEach(article => {
+        if (article.id !== articleID)
         article.style.display = 'none';
     });
 
