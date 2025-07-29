@@ -1,6 +1,6 @@
-function toggleArticle() {
+function toggleArticle(articleID) {
 
-    const article = document.getElementById('article-animal');
+    const article = document.getElementById(articleID);
     
     if (article.style.display === 'block') {
         article.style.display = 'none';
