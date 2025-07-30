@@ -11,6 +11,10 @@ body {
     object-fit: cover;
 }
 
+.bg-imagem {
+    background-image: url("imgs/background.png");
+}
+
 /*CLASSES PARA FONTES*/
 .regular {
     font-weight: 400;
@@ -228,8 +232,7 @@ p {
 
 .header-menu-item {
     color: #ffffff;
-    width: 90%;
-    max-width: 25rem;
+    width: clamp(110px, 34.375vw, 147.8125px);
     font-size: 1.25rem;
     font-weight: 400;
 
