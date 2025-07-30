@@ -199,7 +199,7 @@ p {
 
 .custom-header {
     width: 100%;
-    background-color: #c6ddd1bb;
+    background-color: #b3c9bebb;
 }
 
 .inner-header {
@@ -226,14 +226,13 @@ p {
 }
 
 .header-menu-container {
-    background: linear-gradient(to bottom, #394c45e3, #597369e3);
     opacity: 0%;
 }
 
 .header-menu-item {
     color: #ffffff;
     width: clamp(110px, 34.375vw, 147.8125px);
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 400;
 
     opacity: 0%;
