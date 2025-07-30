@@ -917,6 +917,22 @@
         crossorigin="anonymous">
     </script>
     <script src="script.js"></script>
+    <script>
+        const botoes = document.querySelectorAll('.botao-animal');
+
+        botoes.forEach(botao => {
+            botao.addEventListener('click', () => {
+                if (botao.classList.contains('ativo')) { //clicando pela segunda vez seguida no msm botão
+                    botao.classList.remove('ativo');
+                }
+                else { //clicando em outro botão anteriormente fechado 
+                    botoes.forEach(bt => bt.classList.remove('ativo'));
+                    botao.classList.add('ativo');
+
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
