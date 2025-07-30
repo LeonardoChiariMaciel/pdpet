@@ -168,6 +168,7 @@ p {
     height: clamp(135px, 24vh, 200);
     border-radius: 8px;
     position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .estrelas {
@@ -234,7 +235,7 @@ p {
     width: clamp(110px, 34.375vw, 147.8125px);
     font-size: 1rem;
     font-weight: 400;
-
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     opacity: 0%;
     transition: opacity 0.5s ease, transform 0.3s ease;
 }
@@ -267,6 +268,10 @@ p {
     align-items: center;
     border-style: none;
     transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.efeito-sombra {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
