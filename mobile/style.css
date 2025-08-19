@@ -344,3 +344,57 @@ p {
     border-radius: 8px;
     text-align: center;
 }
+
+/*Páginas de pagamento*/
+
+.glass-pay {
+    width: clamp(277px, 87vw, 372px);
+    height: clamp(482px, 85vh, 791px);
+    margin: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    backdrop-filter: blur(0.625rem);
+    -webkit-backdrop-filter: blur(0.625rem);
+    /*apple*/
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 1.25rem;
+    width: 100%;
+}
+
+.bloco {
+    width: clamp(236px, 73.75vw, 317.125px);
+    height: clamp(110px, 18.9vh, 213px);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bloco2 {
+    width: clamp(236px, 73.75vw, 317.125px);
+    height: clamp(130px, 22.9vh, 213px);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bloco3 {
+    width: clamp(236px, 73.75vw, 317.125px);
+    height: clamp(386px, 68vh, 633px);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.botao-editar {
+    border-style: none;
+    list-style: none;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.entrada-endereco {
+    width: clamp(204px, 63.75vw, 275px);
+    height: clamp(41px, 7vh, 68px);
+    border-style: none;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.checks {
+    width: clamp(204px, 63.75vw, 275px);
+}
