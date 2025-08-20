@@ -104,55 +104,7 @@
         </section>
         <br>
     </main>
-    <script>
-        function renderCart() {
-            const cart = JSON.parse(localStorage.getItem('cart')) || [];
-            const container = document.getElementById('cart-items');
-            container.innerHTML = '';
-
-            let total = 0;
-
-            cart.forEach((item, index) => {
-                total += item.preco * item.quantidade;
-
-                const article = document.createElement('article');
-                article.classList.add('cart-item');
-
-                article.innerHTML = `
-                    <article class="clamp-mobile card bg-light-80 d-flex flex-row justify-content-center rounded-3 mb-2">
-                        <a href="produto.html" class="text-decoration-none">
-                            <img class="icon-6-2 m-2 rounded-3" src="${item.imagem}">
-                        </a>
-                        <div>
-                            <h5 class="f12 bold mt-4">${item.nome}</h5>
-                            <div class="d-flex flex-row align-items-center justify-content-between me-2 gap-2">
-                                <input class="form-control min-w-2 w-25 rounded-3 f12" type="number" value="${item.quantidade}" min="1" step="1">
-                                <p class="f12 medium">R$ ${item.preco}</p>
-                                <img class="icon-1 remove-item" src="imgs/icones/recycle-bin.png">
-                            </div>
-                        </div>
-                    </article>
-                `;
-
-                container.appendChild(article);
-            });
-
-            document.getElementById('cart-total').innerText = "Total: R$ " + total.toFixed(2);
-
-            // Eventos de remover e alterar quantidade
-            document.querySelectorAll('.remove-item').forEach(btn => {
-                btn.addEventListener('click', () => {
-                    const i = parseInt(btn.dataset.index);
-                    cart.splice(i, 1);
-                    localStorage.setItem('cart', JSON.stringify(cart));
-                    renderCart();
-                });
-            });
-        }
-
-        // Renderiza o carrinho ao carregar a página
-        document.addEventListener('DOMContentLoaded', renderCart);
-    </script>
+    <script src="carrinho.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 localStorage.setItem('cart', JSON.stringify(cart));
                 alert(`${item.nome} adicionado ao carrinho!`);
+                window.location.href = 'carrinho.html';
             });
         });
     }
