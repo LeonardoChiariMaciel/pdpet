@@ -462,35 +462,7 @@
         <br>
     </main>
 
-    <!-- <script>
-        // Seleciona todos os botões add-carrinho
-        const buttons = document.querySelectorAll('.add-carrinho');
-
-        buttons.forEach(btn => {
-            btn.addEventListener('click', () => {
-                let cart = JSON.parse(localStorage.getItem('cart')) || [];
-
-                const item = {
-                    nome: btn.dataset.name,
-                    preco: parseFloat(btn.dataset.price),
-                    imagem: btn.dataset.image,
-                    quantidade: 1
-                };
-
-                // Se já existir, aumenta a quantidade
-                const existing = cart.find(i => i.imagem === item.imagem);
-                if (existing) {
-                    existing.quantidade += 1;
-                } else {
-                    cart.push(item);
-                }
-
-                localStorage.setItem('cart', JSON.stringify(cart));
-                alert(`${item.nome} adicionado ao carrinho!`);
-            });
-        });
-    </script> -->
-
+    <!--Possibilidade de adicionar o script de redirecionamento -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
