@@ -117,6 +117,10 @@ p {
     width: 2.75rem;
     height: 2.75rem;
 }
+.icon-2 {
+    width: 2rem;
+    height: 2rem;
+}
 .icon-2-5 {
     width: 2.5rem;
     height: 2.5rem;
@@ -209,6 +213,10 @@ p {
 
 .inner-header .btn:active {
     border: none !important;
+}
+
+.header-col{
+    flex: 1;
 }
 
 .header-title {

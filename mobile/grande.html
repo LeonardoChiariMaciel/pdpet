@@ -34,7 +34,9 @@
                 </a>
             </div>
 
-            <div class="header-col">
+            <div id="header-col-right" class="header-col justify-content-end d-flex align-items-center">
+                <a href="carrinho.html" id="cart-link" class="text-decoration-none me-2">
+                </a>
                 <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#menuCollapse"
                     aria-expanded="false" aria-controls="menuCollapse">
                     <img src="imgs/icones/seta-menu-baixo-azul.svg" alt="Menu" class="menu-icon">
@@ -64,6 +66,7 @@
 
 
     <main class="d-flex flex-column gap-3 py-2">
+        <div id="cart-toast-container" class="toast-container position-fixed top-0 end-0 p-3"></div>
 
         <section class="grid-2 clamp-mobile">
             <button class="botao-animal" onclick="toggleArticle('article-cavalo')">
