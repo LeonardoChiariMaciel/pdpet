@@ -406,3 +406,7 @@ p {
 .checks {
     width: clamp(204px, 63.75vw, 275px);
 }
+
+.qrcode {
+    width: clamp(177px, 55.3125vw, 237.84375px);
+}
