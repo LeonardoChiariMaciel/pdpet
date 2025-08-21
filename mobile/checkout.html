@@ -62,43 +62,58 @@
     <main class="d-flex justify-content-center align-items-center">
         <section class="glass-pay d-flex flex-column align-items-center justify-content-evenly gap-2">
 
-            <article id="total" class="bloco rounded-3 d-flex flex-column justify-content-around">
-                <div class="d-flex flex-row justify-content-between pt-2 pb-2 ps-2 pe-2">
+            <article id="total" class="bloco-checkout rounded-3 d-flex flex-column justify-content-around">
+                <div class="d-flex flex-row justify-content-between p-1 pt-0">
                     <p>Subtotal</p>
                     <p>R$ 79.99</p>
                 </div>
-                <div class="d-flex flex-row justify-content-between pt-2 pb-2 ps-2 pe-2">
+                <div class="d-flex flex-row justify-content-between p-1">
                     <p>Frete</p>
                     <p>R$ 10.00</p>
                 </div>
-                <div class="d-flex flex-row justify-content-between pt-2 pb-2 ps-2 pe-2">
+                <div class="d-flex flex-row justify-content-between p-1 pb-0">
                     <p>Total</p>
                     <p>R$ 89.99</p>
                 </div>
             </article>
 
 
-            <article id="formas-de-pagamento" class="bloco2 rounded-3 d-flex flex-column justify-content-evenly">
+            <article id="formas-de-pagamento" class="bloco-checkout rounded-3 d-flex flex-column justify-content-evenly">
                 <div class="d-flex flex-row align-items-center justify-content-between ms-2 me-2">
                     <h6>Formas de pagamento</h6>
                 </div>
-                <div class="d-flex flex-row ms-2 gap-2">
+                <div class="d-flex flex-row ms-2 pt-1 gap-2">
+                    <input type="radio" name="pagamento" id="entrega" checked>
+                    <label for="entrega">Na Entrega</label>
+                </div>
+                <div class="d-flex flex-row ms-2 pt-1 gap-2">
                     <input type="radio" name="pagamento" id="pix" checked>
                     <label for="pix">PIX</label>
                 </div>
-                <div class="d-flex flex-row ms-2 gap-2">
+                <div class="d-flex flex-row ms-2 pt-1 gap-2">
                     <input type="radio" name="pagamento" id="cartao-avista">
                     <label for="cartao-avista">Cartão à Vista</label>
                     <a href="pagamentos.html" class="header-title-pet botao-editar">Editar</a>
                 </div>
-                <div class="d-flex flex-row ms-2 gap-2">
-                    <input type="radio" name="pagamento" id="cartao-parcelado">
-                    <label for="cartao-parcelado">Cartão Parcelado</label>
-                    <a href="pagamentos.html" class="header-title-pet botao-editar">Editar</a>
+                <div class="d-flex flex-column ms-2 pt-1 gap-2">
+                    <div class="d-flex flex-row gap-2">
+                        <input type="radio" name="pagamento" id="cartao-parcelado">
+                        <label for="cartao-parcelado">Cartão Parcelado</label>
+                        <a href="pagamentos.html" class="header-title-pet botao-editar">Editar</a>
+                    </div>
+                    <select name="parcelas" id="parcelas" class="form-select" >
+                        <option value="1" selected>1x</option>
+                        <option value="2">2x</option>
+                        <option value="3">3x</option>
+                        <option value="4">4x</option>
+                        <option value="6">6x</option>
+                        <option value="9">9x</option>
+                        <option value="12">12x</option>
+                    </select>
                 </div>
             </article>
 
-            <article id="endereco-entrega" class="bloco2 rounded-3 d-flex flex-column justify-content-evenly">
+            <article id="endereco-entrega" class="bloco-checkout rounded-3 d-flex flex-column justify-content-evenly">
                 <div class="d-flex flex-row align-items-center justify-content-between ms-2 me-2">
                     <h6>Endereço de entrega</h6>
                     <a href="endereco.html" class="header-title-pet botao-editar">Editar</a>

@@ -357,7 +357,7 @@ p {
 
 .glass-pay {
     width: clamp(277px, 87vw, 372px);
-    height: clamp(482px, 85vh, 791px);
+    /* height: clamp(482px, 85vh, 791px); */
     margin: 1rem;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 0.5rem;
@@ -370,21 +370,9 @@ p {
     width: 100%;
 }
 
-.bloco {
+.bloco-checkout {
     width: clamp(236px, 73.75vw, 317.125px);
-    height: clamp(110px, 18.9vh, 213px);
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-.bloco2 {
-    width: clamp(236px, 73.75vw, 317.125px);
-    height: clamp(130px, 22.9vh, 213px);
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-.bloco3 {
-    width: clamp(236px, 73.75vw, 317.125px);
-    height: clamp(386px, 68vh, 633px);
+    padding: 1.25rem 0.5rem;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
