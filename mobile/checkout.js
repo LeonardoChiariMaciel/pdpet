@@ -19,4 +19,20 @@ function pagamento () {
     `;
 }
 
+function praOndeIr(){
+    const finalizarPedido = document.getElementById("finalizar-pedido");
+    const botao = document.getElementById('pix');
+    finalizarPedido.addEventListener('click', () => {
+        const pixSelecionado = botao.checked;
+        if (pixSelecionado){
+            window.location.href = "qr.html";
+        }
+        else {
+            window.location.href = "sucesso.html";
+        }
+    });
+}
+
+praOndeIr()
+
 pagamento()
