@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
-    <title>PD Pet - Médio Porte</title>
+    <title>PD Pet - Grande Porte</title>
 </head>
 
 <body>
@@ -69,32 +69,28 @@
         <div id="cart-toast-container" class="toast-container position-fixed top-0 end-0 p-3"></div>
 
         <section class="grid-2 clamp-mobile">
-            <button class="botao-animal" onclick="toggleArticle('article-gato')">
-                <p class="f12 semibold">Gato</p>
+            <button class="botao-animal" onclick="toggleArticle('article-cavalo')">
+                <p class="f12 semibold">Cavalo</p>
             </button>
-            <button class="botao-animal" onclick="toggleArticle('article-ganso')">
-                <p class="f12 semibold">Ganso</p>
+            <button class="botao-animal" onclick="toggleArticle('article-vaca')">
+                <p class="f12 semibold">Vaca</p>
             </button>
-            </section>
+        </section>
 
-            <article id="article-gato" style="display: none;">
-                <div class="informacoes-animal d-flex flex-column gap-4">
-                    <div class="d-flex flex-row gap-1 mt-2">
-                        <img src="imgs/animais/gato.jpg" class="foto-animal-vet">
-                        <p class="f12 regular">O gato sem raça definida (SRD) é versátil e único, com variações de
-                            tamanho entre 23 e 28 cm e peso que pode ir de 3 a 6 kg, dependendo do porte e estilo de
-                            vida.</p>
-                    </div>
-                    <p class="f12 regular">
-                        Esses gatos têm uma enorme diversidade de cores, pelagens e personalidades. Podem ser mais
-                        ativos ou tranquilos, dependendo do ambiente em que vivem. São animais independentes, mas também
-                        podem ser muito carinhosos com seus tutores. Inteligentes e limpos, aprendem rapidamente a usar
-                        a caixa de areia e adoram explorar novos espaços.
-                    </p>
-                    <div>
-                        <section>
-                            <h2 class="ms-2 f12 medium">Mais comprados para Gatos</h2>
-                             <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
+        
+        <article id="article-cavalo" style="display: none;">
+            <div class="informacoes-animal d-flex flex-column gap-4">
+                <div class="d-flex flex-row gap-1 mt-2">
+                    <img src="imgs/animais/cavalo.jpg" class="foto-animal-vet">
+                    <p class="f12 regular">O cavalo é um mamífero de grande porte, conhecido por sua elegância, força e agilidade.</p>
+                </div>
+                <p class="f12 regular">
+                    Possui corpo musculoso e alongado, pescoço arqueado e cabeça comprida com orelhas móveis. Sua pelagem pode apresentar uma ampla gama de cores, e a crina e o rabo são formados por pelos longos. Tem pernas longas e finas com cascos resistentes, o que o torna excelente para corrida e tração. É um animal social e muito utilizado para montaria, trabalho e esporte.
+                </p>
+                <div>
+                    <section>
+                        <h2 class="ms-2 f12 medium">Mais comprados para Cavalo</h2>
+                         <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
                 <div class="unidade-carrossel ps-1 pe-1">
                     <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
                     <a href="produto.html" class="text-decoration-none">
@@ -185,28 +181,28 @@
                         <p class="f10 medium position-absolute bottom-0 pb-1">R$ 104,99</p>
                     </a>
                 </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="botao-de-contato">
-                        <p class="f12 semibold text-center">Entre em contato com um especialista</p>
-                    </div>
+                        </div>
+                    </section>
                 </div>
-            </article>
-
-            <article id="article-ganso" style="display: none;">
-                <div class="informacoes-animal d-flex flex-column gap-4">
-                    <div class="d-flex flex-row gap-1 mt-2">
-                        <img src="imgs/animais/ganso.jpg" class="foto-animal-vet">
-                        <p class="f12 regular">O ganso é uma ave robusta, inteligente e territorial, comum em sítios e fazendas. Mede cerca de 80 a 100 cm e pesa entre 3 e 6 kg, com expectativa de vida de 10 a 20 anos.</p>
-                    </div>
-                    <p class="f12 regular">
-                        Possui penas densas, geralmente brancas ou acinzentadas, e um pescoço longo. É um bom guardião, emitindo sons altos ao notar estranhos. Alimenta-se de grãos, verduras e pasto, precisando de espaço para caminhar e água para nadar.
-                    </p>
-                    <div>
-                        <section>
-                            <h2 class="ms-2 f12 medium">Mais comprados para Gansos</h2>
-                             <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
+                <div class="botao-de-contato">
+                    <p class="f12 semibold text-center">Entre em contato com um especialista</p>
+                </div>
+            </div>
+        </article>
+        
+        <article id="article-vaca" style="display: none;">
+            <div class="informacoes-animal d-flex flex-column gap-4">
+                <div class="d-flex flex-row gap-1 mt-2">
+                    <img src="imgs/animais/vaca.jpg" class="foto-animal-vet">
+                    <p class="f12 regular">A vaca é um mamífero ruminante, parente próxima do boi, conhecida por sua docilidade e produção de leite.</p>
+                </div>
+                <p class="f12 regular">
+                    Seu corpo é robusto e volumoso, com pelagem que varia em tonalidades de branco, preto, marrom ou uma combinação dessas cores. A cabeça é larga, com chifres curtos (ou ausentes, dependendo da raça), e focinho largo. Tem úbere proeminente nas fêmeas e cauda longa com tufo de pelos na ponta. Suas pernas são fortes e a movimentação é calma e estável.
+                </p>
+                <div>
+                    <section>
+                        <h2 class="ms-2 f12 medium">Mais comprados para Vacas</h2>
+                         <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
                 <div class="unidade-carrossel ps-1 pe-1">
                     <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
                     <a href="produto.html" class="text-decoration-none">
@@ -297,41 +293,39 @@
                         <p class="f10 medium position-absolute bottom-0 pb-1">R$ 104,99</p>
                     </a>
                 </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="botao-de-contato">
-                        <p class="f12 semibold text-center">Entre em contato com um especialista</p>
-                    </div>
+                        </div>
+                    </section>
                 </div>
-            </article>
+                <div class="botao-de-contato">
+                    <p class="f12 semibold text-center">Entre em contato com um especialista</p>
+                </div>
+            </div>
+        </article>
 
         <section class="grid-2 clamp-mobile">
-            <button class="botao-animal" onclick="toggleArticle('article-pato')">
-                <p class="f12 semibold">Pato</p>
+            <button class="botao-animal" onclick="toggleArticle('article-boi')">
+                <p class="f12 semibold">Boi</p>
             </button>
-            <button class="botao-animal" onclick="toggleArticle('article-galo')">
-                <p class="f12 semibold">Galo</p>
+            <button class="botao-animal" onclick="toggleArticle('article-bufalo')">
+                <p class="f12 semibold">Búfalo</p>
             </button>
         </section>
 
-            <article id="article-pato" style="display: none;">
-                <div class="informacoes-animal d-flex flex-column gap-4">
-                    <div class="d-flex flex-row gap-1 mt-2">
-                        <img src="imgs/animais/pato.jpg" class="foto-animal-vet">
-                        <p class="f12 regular">O pato é uma ave aquática, sociável e curiosa, bastante criada em sítios e quintais. Mede cerca de 50 a 70 cm e pesa entre 1 e 3 kg. Sua expectativa de vida varia de 8 a 12 anos.
-                        </p>
-                    </div>
-                    <p class="f12 regular">
-                        Possui pelagem curta e macia, com cores que variam entre branco, cinza, preto e marrom. É um
-                        animal limpo, aprende rotinas facilmente e interage bem com humanos. Prefere viver em pares ou
-                        grupos e precisa de um ambiente enriquecido, com túneis, brinquedos e lugares para escalar e se
-                        esconder.
-                    </p>
-                    <div>
-                        <section>
-                            <h2 class="ms-2 f12 medium">Mais comprados para Patos</h2>
-                             <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
+        <article id="article-boi" style="display: none;">
+            <div class="informacoes-animal d-flex flex-column gap-4">
+                <div class="d-flex flex-row gap-1 mt-2">
+                    <img src="imgs/animais/boi.jpg" class="foto-animal-vet">
+                    <p class="f12 regular">O boi, um mamífero ruminante, possui corpo grande robusto e musculoso.</p>
+                </div>
+                <p class="f12 regular">
+                    Sua pelagem varia em cor, mas geralmente é marrom ou preta, com pelos curtos e densos. Tem cabeça
+                    grande, com chifres ocas e permanentes, e um focinho largo. Pernas fortes com cascos, e uma cauda
+                    longa com ponta de pelos compridos, completam suas características físicas. 
+                </p>
+                <div>
+                    <section>
+                        <h2 class="ms-2 f12 medium">Mais comprados para Bois</h2>
+                         <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
                 <div class="unidade-carrossel ps-1 pe-1">
                     <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
                     <a href="produto.html" class="text-decoration-none">
@@ -422,28 +416,28 @@
                         <p class="f10 medium position-absolute bottom-0 pb-1">R$ 104,99</p>
                     </a>
                 </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="botao-de-contato">
-                        <p class="f12 semibold text-center">Entre em contato com um especialista</p>
-                    </div>
+                        </div>
+                    </section>
                 </div>
-            </article>
+                <div class="botao-de-contato">
+                    <p class="f12 semibold text-center">Entre em contato com um especialista</p>
+                </div>
+            </div>
+        </article>
 
-            <article id="article-galo" style="display: none;">
-                <div class="informacoes-animal d-flex flex-column gap-4">
-                    <div class="d-flex flex-row gap-1 mt-2">
-                        <img src="imgs/animais/galo.jpg" class="foto-animal-vet">
-                        <p class="f12 regular">O galo é uma ave territorial, vigilante e de comportamento marcante, comum em ambientes rurais. Mede cerca de 60 a 80 cm e pesa entre 2,5 e 4 kg, com expectativa de vida de 5 a 10 anos.</p>
-                    </div>
-                    <p class="f12 regular">
-                        Possui penas vistosas, crista vermelha e canto característico. Costuma proteger o grupo e marcar território com seu canto. Alimenta-se de grãos, sementes, frutas e insetos, e precisa de espaço para ciscar, empoleirar-se e se exercitar.
-                    </p>
-                    <div>
-                        <section>
-                            <h2 class="ms-2 f12 medium">Mais comprados para Galos</h2>
-                             <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
+        <article id="article-bufalo" style="display: none;">
+            <div class="informacoes-animal d-flex flex-column gap-4">
+                <div class="d-flex flex-row gap-1 mt-2">
+                    <img src="imgs/animais/bufalo.jpg" class="foto-animal-vet">
+                    <p class="f12 regular">O búfalo é um grande mamífero ruminante, semelhante ao boi, mas mais adaptado a ambientes alagados e pantanosos.</p>
+                </div>
+                <p class="f12 regular">
+                    Seu corpo é massivo e musculoso, coberto por pelos escuros e espessos. A cabeça é larga com chifres curvados para trás, mais grossos que os dos bois. Possui pescoço curto, olhos pequenos e focinho largo. Suas pernas são robustas, ideais para o terreno úmido, e a cauda é longa, com um tufo de pelos na ponta. É muito valorizado por sua força e leite rico.
+                </p>
+                <div>
+                    <section>
+                        <h2 class="ms-2 f12 medium">Mais comprados para Búfalos</h2>
+                         <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
                 <div class="unidade-carrossel ps-1 pe-1">
                     <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
                     <a href="produto.html" class="text-decoration-none">
@@ -534,37 +528,37 @@
                         <p class="f10 medium position-absolute bottom-0 pb-1">R$ 104,99</p>
                     </a>
                 </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="botao-de-contato">
-                        <p class="f12 semibold text-center">Entre em contato com um especialista</p>
-                    </div>
+                        </div>
+                    </section>
                 </div>
-            </article>
+                <div class="botao-de-contato">
+                    <p class="f12 semibold text-center">Entre em contato com um especialista</p>
+                </div>
+            </div>
+        </article>
 
         <section class="grid-2 clamp-mobile">
-            <button class="botao-animal" onclick="toggleArticle('article-ovelha')">
-                <p class="f12 semibold">Ovelha</p>
+            <button class="botao-animal" onclick="toggleArticle('article-jumento')">
+                <p class="f12 semibold">Jumento</p>
             </button>
-            <button class="botao-animal" onclick="toggleArticle('article-cocker')">
-                <p class="f12 semibold">Cocker Spaniel</p>
+            <button class="botao-animal" onclick="toggleArticle('article-avestruz')">
+                <p class="f12 semibold">Avestruz</p>
             </button>
         </section>
-
-            <article id="article-ovelha" style="display: none;">
-                <div class="informacoes-animal d-flex flex-column gap-4">
-                    <div class="d-flex flex-row gap-1 mt-2">
-                        <img src="imgs/animais/ovelha.jpg" class="foto-animal-vet">
-                        <p class="f12 regular">A ovelha é um animal dócil, social e tranquilo, muito criado para produção de lã, leite e carne. Mede cerca de 1 metro de comprimento e pesa entre 45 e 100 kg. Sua expectativa de vida varia de 10 a 12 anos.</p>
-                    </div>
-                    <p class="f12 regular">
-                        Tem corpo coberto por lã espessa, que precisa de tosa regular. Vive bem em rebanhos e pastagens amplas. Alimenta-se principalmente de capim, feno e ração balanceada, necessitando de água limpa e abrigo contra clima extremo.
-                    </p>
-                    <div>
-                        <section>
-                            <h2 class="ms-2 f12 medium">Mais comprados para Ovelhas</h2>
-                             <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
+        
+        <article id="article-jumento" style="display: none;">
+            <div class="informacoes-animal d-flex flex-column gap-4">
+                <div class="d-flex flex-row gap-1 mt-2">
+                    <img src="imgs/animais/jumento.jpg" class="foto-animal-vet">
+                    <p class="f12 regular">O jumento é um mamífero da mesma família do cavalo, conhecido por sua resistência e capacidade de carregar cargas.</p>
+                </div>
+                <p class="f12 regular">
+                    Tem corpo mais compacto, pelagem curta e áspera, geralmente em tons de cinza ou marrom. As orelhas são grandes e móveis, características marcantes da espécie. Possui cascos duros e pernas fortes, ideais para terrenos áridos e acidentados. É um animal de passo firme, muito utilizado como animal de tração em diversas regiões do mundo.
+                </p>
+                <div>
+                    <section>
+                        <h2 class="ms-2 f12 medium">Mais comprados para Jumento</h2>
+                         <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
                 <div class="unidade-carrossel ps-1 pe-1">
                     <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
                     <a href="produto.html" class="text-decoration-none">
@@ -655,29 +649,28 @@
                         <p class="f10 medium position-absolute bottom-0 pb-1">R$ 104,99</p>
                     </a>
                 </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="botao-de-contato">
-                        <p class="f12 semibold text-center">Entre em contato com um especialista</p>
-                    </div>
+                        </div>
+                    </section>
                 </div>
-            </article>
-
-            <article id="article-cocker" style="display: none;">
-                <div class="informacoes-animal d-flex flex-column gap-4">
-                    <div class="d-flex flex-row gap-1 mt-2">
-                        <img src="imgs/animais/cocker.JPG" class="foto-animal-vet">
-                        <p class="f12 regular">O Cocker Spaniel é um cão carinhoso, ativo e leal, conhecido por sua personalidade amigável. Mede entre 35 e 40 cm e pesa de 10 a 15 kg. Sua expectativa de vida é de 12 a 15 anos.
-                        </p>
-                    </div>
-                    <p class="f12 regular">
-                        Possui orelhas longas, pelagem ondulada e olhos expressivos. Gosta de brincar, passear e receber atenção do tutor. Precisa de escovação frequente, banhos regulares e alimentação balanceada. Adapta-se bem à vida em família e convive bem com crianças.
-                    </p>
-                    <div>
-                        <section>
-                            <h2 class="ms-2 f12 medium">Mais comprados para Spaniels</h2>
-                             <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
+                <div class="botao-de-contato">
+                    <p class="f12 semibold text-center">Entre em contato com um especialista</p>
+                </div>
+            </div>
+        </article>
+        
+        <article id="article-avestruz" style="display: none;">
+            <div class="informacoes-animal d-flex flex-column gap-4">
+                <div class="d-flex flex-row gap-1 mt-2">
+                    <img src="imgs/animais/avestruz.jpg" class="foto-animal-vet">
+                    <p class="f12 regular">O avestruz é a maior ave viva do planeta, embora não voe, é extremamente veloz em terra.</p>
+                </div>
+                <p class="f12 regular">
+                    Seu corpo é grande e arredondado, coberto por penas que variam entre o preto e o branco nos machos e tons mais discretos nas fêmeas. O pescoço é longo e sem penas na maior parte, com cabeça pequena e olhos grandes. Suas pernas são longas, fortes e terminam em dois dedos, sendo ideais para corrida. É uma ave curiosa e adaptada a climas quentes e abertos.
+                </p>
+                <div>
+                    <section>
+                        <h2 class="ms-2 f12 medium">Mais comprados para Avestruzes</h2>
+                         <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
                 <div class="unidade-carrossel ps-1 pe-1">
                     <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
                     <a href="produto.html" class="text-decoration-none">
@@ -768,37 +761,37 @@
                         <p class="f10 medium position-absolute bottom-0 pb-1">R$ 104,99</p>
                     </a>
                 </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="botao-de-contato">
-                        <p class="f12 semibold text-center">Entre em contato com um especialista</p>
-                    </div>
+                        </div>
+                    </section>
                 </div>
-            </article>
+                <div class="botao-de-contato">
+                    <p class="f12 semibold text-center">Entre em contato com um especialista</p>
+                </div>
+            </div>
+        </article>
 
         <section class="grid-2 clamp-mobile">
-            <button class="botao-animal" onclick="toggleArticle('article-maine')">
-                <p class="f12 semibold">Gato Maine Coon</p>
+            <button class="botao-animal" onclick="toggleArticle('article-alce')">
+                <p class="f12 semibold">Alce</p>
             </button>
-            <button class="botao-animal" onclick="toggleArticle('article-australiano')">
-                <p class="f12 semibold">Cão Australiano</p>
+            <button class="botao-animal" onclick="toggleArticle('article-lhama')">
+                <p class="f12 semibold">Lhama</p>
             </button>
         </section>
-
-            <article id="article-maine" style="display: none;">
-                <div class="informacoes-animal d-flex flex-column gap-4">
-                    <div class="d-flex flex-row gap-1 mt-2">
-                        <img src="imgs/animais/maine.jpg" class="foto-animal-vet">
-                        <p class="f12 regular">O Maine Coon é um gato dócil, inteligente e sociável, conhecido por seu porte imponente. Pode medir até 1 metro de comprimento e pesar de 6 a 10 kg. Sua expectativa de vida varia de 12 a 15 anos.</p>
-                    </div>
-                    <p class="f12 regular">
-                        Tem pelagem longa e densa, cauda espessa e orelhas com tufos. É brincalhão, calmo e costuma se dar bem com outros animais. Precisa de escovação regular, estímulos físicos e mentais, além de alimentação de qualidade para manter a saúde e o tamanho.
-                    </p>
-                    <div>
-                        <section>
-                            <h2 class="ms-2 f12 medium">Mais comprados para Maines</h2>
-                             <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
+        
+        <article id="article-alce" style="display: none;">
+            <div class="informacoes-animal d-flex flex-column gap-4">
+                <div class="d-flex flex-row gap-1 mt-2">
+                    <img src="imgs/animais/alce.jpg" class="foto-animal-vet">
+                    <p class="f12 regular">O alce é o maior membro da família dos cervídeos, encontrado principalmente em regiões frias do Hemisfério Norte.</p>
+                </div>
+                <p class="f12 regular">
+                    Possui corpo grande e musculoso, com pernas longas e focinho largo. A pelagem é espessa, geralmente em tons de marrom escuro. Os machos são facilmente reconhecíveis por seus enormes chifres ramificados, que caem e crescem anualmente. Tem pescoço curto e uma espécie de papada peluda sob o queixo. É um animal solitário e adaptado a florestas e áreas pantanosas.
+                </p>
+                <div>
+                    <section>
+                        <h2 class="ms-2 f12 medium">Mais comprados para Alces</h2>
+                         <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
                 <div class="unidade-carrossel ps-1 pe-1">
                     <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
                     <a href="produto.html" class="text-decoration-none">
@@ -889,28 +882,28 @@
                         <p class="f10 medium position-absolute bottom-0 pb-1">R$ 104,99</p>
                     </a>
                 </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="botao-de-contato">
-                        <p class="f12 semibold text-center">Entre em contato com um especialista</p>
-                    </div>
+                        </div>
+                    </section>
                 </div>
-            </article>
-
-            <article id="article-australiano" style="display: none;">
-                <div class="informacoes-animal d-flex flex-column gap-4">
-                    <div class="d-flex flex-row gap-1 mt-2">
-                        <img src="imgs/animais/australiano.png" class="foto-animal-vet">
-                        <p class="f12 regular">O Cão Pastor Australiano é inteligente, enérgico e leal, ideal para tutores ativos. Mede entre 45 e 58 cm e pesa de 16 a 32 kg. Sua expectativa de vida é de 12 a 15 anos.</p>
-                    </div>
-                    <p class="f12 regular">
-                        Tem pelagem densa, de médio a longo comprimento, em cores variadas como azul-merle, preto e tricolor. É muito ágil, adora desafios e precisa de exercícios diários. Sua alimentação deve ser equilibrada, e ele se beneficia de treinos, brincadeiras e interação constante com o tutor.
-                    </p>
-                    <div>
-                        <section>
-                            <h2 class="ms-2 f12 medium">Mais comprados para Cães Australianos</h2>
-                             <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
+                <div class="botao-de-contato">
+                    <p class="f12 semibold text-center">Entre em contato com um especialista</p>
+                </div>
+            </div>
+        </article>
+        
+        <article id="article-lhama" style="display: none;">
+            <div class="informacoes-animal d-flex flex-column gap-4">
+                <div class="d-flex flex-row gap-1 mt-2">
+                    <img src="imgs/animais/lhama.webp" class="foto-animal-vet">
+                    <p class="f12 regular">A lhama é um mamífero domesticado típico das regiões andinas, parente próxima do camelo, mas sem corcova.</p>
+                </div>
+                <p class="f12 regular">
+                    Seu corpo é esguio, com pelagem densa e lanosa que pode apresentar diversas cores, como branco, marrom, preto ou mesclado. A cabeça é alongada, com orelhas curvas em forma de banana e olhos grandes. Possui pernas finas e resistentes, com dois dedos em cada pata adaptados a terrenos montanhosos. É usada como animal de carga e também valorizada por sua lã.
+                </p>
+                <div>
+                    <section>
+                        <h2 class="ms-2 f12 medium">Mais comprados para Lhamas</h2>
+                         <div id="carrossel-id" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2">
                 <div class="unidade-carrossel ps-1 pe-1">
                     <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
                     <a href="produto.html" class="text-decoration-none">
@@ -1001,42 +994,30 @@
                         <p class="f10 medium position-absolute bottom-0 pb-1">R$ 104,99</p>
                     </a>
                 </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div class="botao-de-contato">
-                        <p class="f12 semibold text-center">Entre em contato com um especialista</p>
-                    </div>
+                        </div>
+                    </section>
                 </div>
-            </article>
+                <div class="botao-de-contato">
+                    <p class="f12 semibold text-center">Entre em contato com um especialista</p>
+                </div>
+            </div>
+        </article>
 
-        </section>
 
     </main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-        crossorigin="anonymous">
-    </script>
-    <script src="script.js"></script>
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+        </script>
+    <script src="js/updateCartIcon.js"></script>
+    <script src="js/artigos-porte.js"></script>
+    
+    <script src="js/carregaItens.js"></script>
     <script>
-        const botoes = document.querySelectorAll('.botao-animal');
-
-        botoes.forEach(botao => {
-            botao.addEventListener('click', () => {
-                if (botao.classList.contains('ativo')) { //clicando pela segunda vez seguida no msm botão
-                    botao.classList.remove('ativo');
-                }
-                else { //clicando em outro botão anteriormente fechado 
-                    botoes.forEach(bt => bt.classList.remove('ativo'));
-                    botao.classList.add('ativo');
-
-                }
-            });
-        });
+        addCarrinhoListener();
     </script>
-    <script src="script.js"></script>
+    
 </body>
 
 </html>
