@@ -93,82 +93,8 @@
                 </div>
             </div>
         </section>
-
-        <article class="clamp-mobile bg-light-80 card d-flex flex-column align-items-center m-auto rounded-3">
-            <a href="produto.html" class="w-95 m-2">
-                <img class="w-100 rounded-3" src="imgs/produtos/produto 4.jpg" alt="Produto 1">
-            </a>
-            <a href="produto.html" class="text-decoration-none link-dark">
-                <p class="f12 medium px-3">Antipulgas e Carrapatos NexGard Spectra para Cães</p>
-            </a>
-            <div class="w-75 d-flex flex-row justify-content-between align-items-center pb-3">
-                <p class="f14 semibold mb-0">R$ 109,99</p>
-                <a href="carrinho.html" 
-                    class="text-decoration-none add-carrinho"
-                    data-name="Antipulgas e Carrapatos NexGard Spectra para Cães"
-                    data-price="109.89"
-                    data-image="imgs/produtos/produto 4.jpg">
-                    <img src="imgs/icones/carrinho.png" class="icon-2-5" alt="Adicionar ao carrinho">
-                </a>
-            </div>
-        </article>
-
-        <article class="clamp-mobile bg-light-80 card d-flex flex-column align-items-center m-auto rounded-3">
-            <a href="produto.html" class="w-95 m-2">
-                <img class="w-100 rounded-3" src="imgs/produtos/capivara.jpg" alt="Produto 1">
-            </a>
-            <a href="produto.html" class="text-decoration-none link-dark">
-                <p class="f12 medium px-3">Brinquedo Capivara de Pelúcia PD Pet para Cães</p>
-            </a>
-            <div class="w-75 d-flex flex-row justify-content-between align-items-center pb-3">
-                <p class="f14 semibold mb-0">R$ 79,99</p>
-                <a href="carrinho.html" 
-                    class="text-decoration-none add-carrinho"
-                    data-name="Brinquedo Capivara de Pelúcia PD Pet para Cães"
-                    data-price="79.99"
-                    data-image="imgs/produtos/capivara.jpg">
-                    <img src="imgs/icones/carrinho.png" class="icon-2-5" alt="Adicionar ao carrinho">
-                </a>
-            </div>
-        </article>
-
-        <article class="clamp-mobile bg-light-80 card d-flex flex-column align-items-center m-auto rounded-3">
-            <a href="produto.html" class="w-95 m-2">
-                <img class="w-100 rounded-3" src="imgs/produtos/cama-dicas.jpg" alt="Produto 1">
-            </a>
-            <a href="produto.html" class="text-decoration-none link-dark">
-                <p class="f12 medium px-3">Cama Spike Duplo Cinza</p>
-            </a>
-            <div class="w-75 d-flex flex-row justify-content-between align-items-center pb-3">
-                <p class="f14 semibold mb-0">R$ 104,99</p>
-                <a href="carrinho.html" 
-                    class="text-decoration-none add-carrinho"
-                    data-name="Cama Spike Duplo Cinza"
-                    data-price="104.99"
-                    data-image="imgs/produtos/cama-dicas.jpg">
-                    <img src="imgs/icones/carrinho.png" class="icon-2-5" alt="Adicionar ao carrinho">
-                </a>
-            </div>
-        </article>
-
-        <article class="clamp-mobile bg-light-80 card d-flex flex-column align-items-center m-auto rounded-3">
-            <a href="produto.html" class="w-95 m-2">
-                <img class="w-100 rounded-3" src="imgs/produtos/racao-verde.jpg" alt="Produto 1">
-            </a>
-            <a href="produto.html" class="text-decoration-none link-dark">
-                <p class="f12 medium px-3">Ração Golden Seleção Natural para Cães Sênior</p>
-            </a>
-            <div class="w-75 d-flex flex-row justify-content-between align-items-center pb-3">
-                <p class="f14 semibold mb-0">R$ 69,90</p>
-                <a href="carrinho.html" 
-                    class="text-decoration-none add-carrinho"
-                    data-name="Ração Golden Seleção Natural para Cães Sênior"
-                    data-price="69.90"
-                    data-image="imgs/produtos/racao-verde.jpg">
-                    <img src="imgs/icones/carrinho.png" class="icon-2-5" alt="Adicionar ao carrinho">
-                </a>
-            </div>
-        </article>
+        
+        <section id="lista-produtos-container" class="d-flex flex-column gap-4"></section>
 
         <br>
 
@@ -181,8 +107,15 @@
     
     <script src="js/carregaItens.js"></script>
     <script>
-        addCarrinhoListener();
+        fetch('/data/items.json')
+        .then(response => response.json())
+        .then(items => {
+            carregaItensLista(items, "product", "lista-produtos-container");
+            addCarrinhoListener();
+        })
+        .catch(error => console.error('Error fetching JSON:', error));
     </script>
+    
 </body>
 
 </html>

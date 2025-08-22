@@ -98,10 +98,10 @@
         fetch('/data/items.json')
             .then(response => response.json())
             .then(items => {
-                carregaItens(items, "product", 8, "product-container-1");
-                carregaItens(items, "service", 8, "service-container-1");
-                carregaItens(items, "product", 8, "product-container-2");
-                carregaItens(items, "service", 8, "service-container-2");
+                carregaItensCarrossel(items, "product", 8, "product-container-1");
+                carregaItensCarrossel(items, "service", 8, "service-container-1");
+                carregaItensCarrossel(items, "product", 8, "product-container-2");
+                carregaItensCarrossel(items, "service", 8, "service-container-2");
                 addCarrinhoListener();
             })
             .catch(error => {
