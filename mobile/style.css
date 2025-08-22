@@ -191,7 +191,7 @@ p {
     transform: rotateX(-50%);
 }
 
-#agrupador-de-cards {
+.agrupador-de-cards {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;

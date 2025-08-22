@@ -1,0 +1,149 @@
+[
+  {
+    "id": 2001,
+    "title": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
+    "price": 79.99,
+    "image": "imgs/produtos/capivara.jpg",
+    "type": "product"
+  },
+  {
+    "id": 2002,
+    "title": "Camiseta Galo para Cachorro, tamanho M",
+    "price": 69.9,
+    "image": "imgs/produtos/galo.jpg",
+    "type": "product"
+  },
+  {
+    "id": 2003,
+    "title": "Ração Golden Seleção Natural para Cães Sênior",
+    "price": 69.9,
+    "image": "imgs/produtos/racao-verde.jpg",
+    "type": "product"
+  },
+  {
+    "id": 2004,
+    "title": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
+    "price": 94.99,
+    "image": "imgs/produtos/bebedouro.jpg",
+    "type": "product"
+  },
+  {
+    "id": 2005,
+    "title": "Cama Spike Duplo Cinza",
+    "price": 104.99,
+    "image": "imgs/produtos/cama-dicas.jpg",
+    "type": "product"
+  },
+  {
+    "id": 2006,
+    "title": "Antipulgas e Carrapatos NexGard Spectra para Cães",
+    "price": 91.69,
+    "image": "imgs/produtos/produto5.jpg",
+    "type": "product"
+  },
+  {
+    "id": 2007,
+    "title": "Ração Zootekna Pic Nic para Roedores",
+    "price": 19.99,
+    "image": "imgs/produtos/promo6.jpg",
+    "type": "product"
+  },
+  {
+    "id": 2008,
+    "title": "Anti Pulgas e Carrapatos NexGard Spectra para Cães",
+    "price": 72.79,
+    "image": "imgs/produtos/produto3.jpg",
+    "type": "product"
+  },
+  {
+    "id": 2009,
+    "title": "Refil Filtro Fonte Chalesco Cat & Dog para Gatos",
+    "price": 63.64,
+    "image": "imgs/produtos/promo2.jpg",
+    "type": "product"
+  },
+  {
+    "id": 2010,
+    "title": "Alimento Supra Funny Bunny Delícias da Horta para Roedores",
+    "price": 16.99,
+    "image": "imgs/produtos/promo5.jpg",
+    "type": "product"
+  },
+  {
+    "id": 2011,
+    "title": "Antipulgas e Carrapatos NexGard Spectra para Cães",
+    "price": 109.89,
+    "image": "imgs/produtos/produto 4.jpg",
+    "type": "product"
+  },
+  {
+    "id": 3001,
+    "title": "Passeio guiado: Energia gasta, pet relaxado",
+    "price": 44.8,
+    "image": "imgs/servicos/passeio 2.jpg",
+    "type": "service"
+  },
+  {
+    "id": 3002,
+    "title": "Vacinação e exames: Prevenção é o melhor remédio",
+    "price": 79.99,
+    "image": "imgs/servicos/banho.jpg",
+    "type": "service"
+  },
+  {
+    "id": 3003,
+    "title": "Teleconsulta com o Dr. Pet",
+    "price": 149.9,
+    "image": "imgs/servicos/adestrador1.png",
+    "type": "service"
+  },
+  {
+    "id": 3004,
+    "title": "Clínica veterinária: Atendimento completo para seu pet",
+    "price": 199.99,
+    "image": "imgs/servicos/clinicas serv.jpg",
+    "type": "service"
+  },
+  {
+    "id": 3005,
+    "title": "Hospital veterinário: Emergências e cirurgias com segurança",
+    "price": 199.99,
+    "image": "imgs/servicos/hospitais serv.jpg",
+    "type": "service"
+  },
+  {
+    "id": 3006,
+    "title": "Consultório veterinário: Saúde e bem-estar do seu pet",
+    "price": 179.99,
+    "image": "imgs/servicos/consultorios.jpg",
+    "type": "service"
+  },
+  {
+    "id": 3007,
+    "title": "Banho e tosa relaxante: Deixe seu pet limpo e cheiroso",
+    "price": 79.9,
+    "image": "imgs/servicos/banho2.png",
+    "type": "service"
+  },
+  {
+    "id": 3008,
+    "title": "Vacinação e exames: Prevenção é o melhor remédio",
+    "price": 79.99,
+    "image": "imgs/servicos/toto deitado.jpg",
+    "type": "service"
+  },
+  {
+    "id": 3009,
+    "title": "Passeios e atividades: Pet mais feliz e saudável",
+    "price": 69.95,
+    "image": "imgs/servicos/aboutus.jpg",
+    "type": "service"
+  },
+  {
+    "id": 3010,
+    "title": "Dr. Pet: Cuide da saúde do seu amigo de estimação",
+    "price": 129.98,
+    "image": "imgs/servicos/about-dr-pet.jpg",
+    "type": "service"
+  }
+]
