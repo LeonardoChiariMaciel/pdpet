@@ -11,7 +11,7 @@ function carregaItens(items, type, quantity, containerId) {
             let item = document.createElement("div");
             item.className = "unidade-carrossel ps-1 pe-1";
             item.innerHTML = `
-                <img class="estrelas mt-2 ms-1" src="imgs/icones/estrelas adap.png">
+                <img class="estrelas mt-2 ms-1" src="../imgs/icones/estrelas adap.png">
                 <a href="produto.html?id=${element.id}" class="text-decoration-none">
                     <img class="img-produto rounded-3 py-1" src="${element.image}">
                 </a>
@@ -20,7 +20,7 @@ function carregaItens(items, type, quantity, containerId) {
                     data-name="${element.title}"
                     data-price="${element.price.toFixed(2)}"
                     data-image="${element.image}">
-                    <img class="botao-mais" src="imgs/icones/mais.png" alt="Adicionar ao carrinho">
+                    <img class="botao-mais" src="../imgs/icones/mais.png" alt="Adicionar ao carrinho">
                 </a>
                 <a href="produto.html?id=${element.id}" class="text-decoration-none text-black">
                     <p class="f8 regular">${element.title}</p>

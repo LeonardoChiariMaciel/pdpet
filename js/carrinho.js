@@ -20,7 +20,7 @@ function renderCart() {
                     <div class="d-flex flex-row align-items-center justify-content-between me-2 gap-2">
                         <input data-index="${i}" class="incrementador form-control min-w-2 w-25 rounded-3 f12" type="number" value="${item.quantidade}" min="1" step="1">
                         <p class="f12 medium">R$ ${item.preco.toFixed(2)}</p>
-                        <img class="icon-1 remove-item" data-index="${i}" src="imgs/icones/recycle-bin.png"> <!-- adicionado data-index -->
+                        <img class="icon-1 remove-item" data-index="${i}" src="../imgs/icones/recycle-bin.png"> <!-- adicionado data-index -->
                     </div>
                 </div>
             </article>
