@@ -4,146 +4,167 @@
     "title": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
     "price": 79.99,
     "image": "imgs/produtos/capivara.jpg",
-    "type": "product"
+    "type": "product",
+    "description": "Brinquedo de pelúcia em formato de capivara, ideal para cães de todas as idades. Proporciona diversão, alívio do estresse e estimula o instinto de caça. Recomendado para brincadeiras supervisionadas."
   },
   {
     "id": 2002,
     "title": "Camiseta Galo para Cachorro, tamanho M",
     "price": 69.9,
     "image": "imgs/produtos/galo.jpg",
-    "type": "product"
+    "type": "product",
+    "description": "Camiseta confortável e estilosa para cães de porte médio. Confeccionada em tecido leve e respirável, ajuda a proteger a pele contra poeira e pequenas irritações. Fácil de vestir e lavar."
   },
   {
     "id": 2003,
     "title": "Ração Golden Seleção Natural para Cães Sênior",
     "price": 69.9,
     "image": "imgs/produtos/racao-verde.jpg",
-    "type": "product"
+    "type": "product",
+    "description": "Ração premium indicada para cães idosos. Elaborada com ingredientes naturais e balanceados para auxiliar na saúde articular, digestiva e imunológica. Sem corantes e aromatizantes artificiais."
   },
   {
     "id": 2004,
     "title": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
     "price": 94.99,
     "image": "imgs/produtos/bebedouro.jpg",
-    "type": "product"
+    "type": "product",
+    "description": "Fonte de água elétrica desenvolvida para cães e gatos. Mantém a água sempre em movimento, incentivando a hidratação. Possui design prático, filtro substituível e baixo consumo de energia."
   },
   {
     "id": 2005,
     "title": "Cama Spike Duplo Cinza",
     "price": 104.99,
     "image": "imgs/produtos/cama-dicas.jpg",
-    "type": "product"
+    "type": "product",
+    "description": "Cama dupla acolchoada e macia para cães e gatos. Oferece conforto térmico e suporte adequado para o descanso. Ideal para pets de porte pequeno a médio."
   },
   {
     "id": 2006,
     "title": "Antipulgas e Carrapatos NexGard Spectra para Cães",
     "price": 91.69,
     "image": "imgs/produtos/produto5.jpg",
-    "type": "product"
+    "type": "product",
+    "description": "Tablete mastigável indicado para o tratamento e prevenção de infestações por pulgas e carrapatos em cães. Protege também contra vermes intestinais. Não administrar em cães com hipersensibilidade aos componentes."
   },
   {
     "id": 2007,
     "title": "Ração Zootekna Pic Nic para Roedores",
     "price": 19.99,
     "image": "imgs/produtos/promo6.jpg",
-    "type": "product"
+    "type": "product",
+    "description": "Alimento balanceado desenvolvido para roedores como hamsters, ratos e coelhos. Contém sementes, grãos e fibras que auxiliam na saúde intestinal e bem-estar geral."
   },
   {
     "id": 2008,
     "title": "Anti Pulgas e Carrapatos NexGard Spectra para Cães",
     "price": 72.79,
     "image": "imgs/produtos/produto3.jpg",
-    "type": "product"
+    "type": "product",
+    "description": "Antiparasitário oral em tablete mastigável para cães. Eficaz contra pulgas, carrapatos e vermes intestinais. Contraindicado em animais com histórico de alergia aos princípios ativos."
   },
   {
     "id": 2009,
     "title": "Refil Filtro Fonte Chalesco Cat & Dog para Gatos",
     "price": 63.64,
     "image": "imgs/produtos/promo2.jpg",
-    "type": "product"
+    "type": "product",
+    "description": "Refil de carvão ativado para fontes Chalesco. Garante água filtrada e livre de impurezas para gatos e cães. Recomenda-se a troca periódica para manter a qualidade da hidratação."
   },
   {
     "id": 2010,
     "title": "Alimento Supra Funny Bunny Delícias da Horta para Roedores",
     "price": 16.99,
     "image": "imgs/produtos/promo5.jpg",
-    "type": "product"
+    "type": "product",
+    "description": "Mistura nutritiva com vegetais desidratados e fibras naturais. Indicado para coelhos e pequenos roedores. Auxilia na digestão e na manutenção de uma dieta saudável."
   },
   {
     "id": 2011,
     "title": "Antipulgas e Carrapatos NexGard Spectra para Cães",
     "price": 109.89,
     "image": "imgs/produtos/produto 4.jpg",
-    "type": "product"
+    "type": "product",
+    "description": "Tratamento completo contra pulgas, carrapatos e parasitas gastrointestinais. Mastigável palatável que facilita a administração em cães. Não recomendado para animais com sensibilidade aos excipientes da fórmula."
   },
   {
     "id": 3001,
     "title": "Passeio guiado: Energia gasta, pet relaxado",
     "price": 44.8,
     "image": "imgs/servicos/passeio 2.jpg",
-    "type": "service"
+    "type": "service",
+    "description": "Serviço de passeio acompanhado por profissionais experientes. Garante atividade física, socialização e redução do estresse. Ideal para cães que precisam gastar energia diariamente."
   },
   {
     "id": 3002,
     "title": "Vacinação e exames: Prevenção é o melhor remédio",
     "price": 79.99,
     "image": "imgs/servicos/banho.jpg",
-    "type": "service"
+    "type": "service",
+    "description": "Serviço veterinário de vacinação e exames preventivos. Ajuda a proteger contra doenças comuns e a monitorar a saúde do pet. Realizado por equipe qualificada e em ambiente seguro."
   },
   {
     "id": 3003,
     "title": "Teleconsulta com o Dr. Pet",
     "price": 149.9,
     "image": "imgs/servicos/adestrador1.png",
-    "type": "service"
+    "type": "service",
+    "description": "Atendimento veterinário online com orientação profissional para casos simples. Ideal para tirar dúvidas rápidas, receber recomendações e acompanhamento remoto da saúde do seu pet."
   },
   {
     "id": 3004,
     "title": "Clínica veterinária: Atendimento completo para seu pet",
     "price": 199.99,
     "image": "imgs/servicos/clinicas serv.jpg",
-    "type": "service"
+    "type": "service",
+    "description": "Atendimento veterinário completo com consultas, exames e tratamentos. Estrutura preparada para garantir o bem-estar e a recuperação de cães e gatos em diferentes situações clínicas."
   },
   {
     "id": 3005,
     "title": "Hospital veterinário: Emergências e cirurgias com segurança",
     "price": 199.99,
     "image": "imgs/servicos/hospitais serv.jpg",
-    "type": "service"
+    "type": "service",
+    "description": "Hospital especializado em emergências, internações e cirurgias veterinárias. Equipe qualificada e infraestrutura moderna para atendimento seguro e eficiente em casos graves."
   },
   {
     "id": 3006,
     "title": "Consultório veterinário: Saúde e bem-estar do seu pet",
     "price": 179.99,
     "image": "imgs/servicos/consultorios.jpg",
-    "type": "service"
+    "type": "service",
+    "description": "Consultas de rotina e acompanhamento veterinário para prevenção e tratamento de doenças. Ambiente acolhedor, pensado para o bem-estar dos animais."
   },
   {
     "id": 3007,
     "title": "Banho e tosa relaxante: Deixe seu pet limpo e cheiroso",
     "price": 79.9,
     "image": "imgs/servicos/banho2.png",
-    "type": "service"
+    "type": "service",
+    "description": "Serviço completo de higiene e estética animal. Inclui banho relaxante, corte de pelos e tosa higiênica. Produtos dermatologicamente testados e indicados para diferentes tipos de pelagem."
   },
   {
     "id": 3008,
     "title": "Vacinação e exames: Prevenção é o melhor remédio",
     "price": 79.99,
     "image": "imgs/servicos/toto deitado.jpg",
-    "type": "service"
+    "type": "service",
+    "description": "Programa de prevenção com vacinas essenciais e exames periódicos. Recomendado para manter cães e gatos sempre protegidos contra doenças infecciosas."
   },
   {
     "id": 3009,
     "title": "Passeios e atividades: Pet mais feliz e saudável",
     "price": 69.95,
     "image": "imgs/servicos/aboutus.jpg",
-    "type": "service"
+    "type": "service",
+    "description": "Atividades recreativas e passeios planejados para estimular corpo e mente. Auxilia na socialização, combate à obesidade e redução de comportamentos ansiosos."
   },
   {
     "id": 3010,
     "title": "Dr. Pet: Cuide da saúde do seu amigo de estimação",
     "price": 129.98,
     "image": "imgs/servicos/about-dr-pet.jpg",
-    "type": "service"
+    "type": "service",
+    "description": "Consulta veterinária com o Dr. Pet, profissional especializado em cães e gatos. Atendimento personalizado com foco na prevenção e no tratamento de doenças."
   }
 ]
