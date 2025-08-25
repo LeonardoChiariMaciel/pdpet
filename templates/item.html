@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
-    <title>PD Pet - Serviço</title>
+    <title>PD Pet - Item</title>
 </head>
 
 <body>
@@ -59,30 +59,31 @@
                 <a href="sobre.html"
                 class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Sobre</a>
             </div>
-            <a href="index.html"
+            <a href="../index.html"
                 class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black" style="width: clamp(226px, 70.625vw, 303.68px);">Sair</a>
         </div>
     </section>
 
-    <main class="d-flex flex-column gap-2 align-items-center mt-2 mb-2">
+    <main>
         <div id="cart-toast-container" class="toast-container position-fixed top-0 end-0 p-3"></div>
-        <section class="clamp-mobile card rounded-3 p-2">
-            <p class="f14 medium">Banho e tosa relaxante: Deixe seu pet limpo e cheiroso</p>
-        </section>
-        <img class="clamp-mobile rounded-3" src="../imgs/servicos/banho2.png">
-        <article class="clamp-mobile card rounded-3 p-2">
-            <p class="f12 regular">Transforme o banho em uma experiência de spa para seu pet! Nosso serviço de banho e tosa relaxante utiliza produtos de alta qualidade, garantindo limpeza profunda e um perfume duradouro. Seu amigo sairá não apenas lindo e cheiroso, mas também calmo e feliz.</p>
-        </article>
-        <section class="clamp-mobile d-flex flex-row justify-content-between gap-2">
-            <div class="clamp-mobile card d-flex justify-content-center align-items-center rounded-3">
-                <p class="f24 regular">R$ 79,90</p>
+
+
+        <section  class="d-flex flex-column gap-2 align-items-center mt-2 mb-2">
+            <div class="clamp-mobile card rounded-3 p-2">
+                <p id="item-title" class="f14 medium">Item não encontrado!</p>
             </div>
-            <a href="carrinho.html" class="card px-4 py-1 text-decoration-none d-flex justify-content-center align-items-center rounded-3 add-carrinho"
-                data-name="Banho e tosa relaxante: Deixe seu pet limpo e cheiroso"
-                data-price="79.90"
-                data-image="../imgs/servicos/banho2.png">
-                <img src="../imgs/icones/carrinho.png" class="icon-2-5 ">
-            </a>
+            <img id="item-image" class="clamp-mobile rounded-3" src="">
+            <div class="clamp-mobile card rounded-3 p-2">
+                <p id="item-description" class="f12 regular">O Item foi removido ou houve algum erro durante sua busca. Entre em contato para saber mais.</p>
+            </div>
+            <div class="clamp-mobile d-flex flex-row justify-content-between gap-2">
+                <div class="clamp-mobile card d-flex justify-content-center align-items-center rounded-3">
+                    <p id="item-price" class="f24 regular">R$ 00,00</p>
+                </div>
+                <a id="add-to-cart-link" href="carrinho.html" class="card px-4 py-1 text-decoration-none d-flex justify-content-center align-items-center rounded-3 add-carrinho">
+                    <img src="../imgs/icones/carrinho.png" class="icon-2-5 ">
+                </a>
+            </div>
         </section>
         <br>
     </main>
@@ -96,7 +97,13 @@
     
     <script src="../js/carregaItens.js"></script>
     <script>
-        addCarrinhoListener();
+        fetch('/data/items.json')
+            .then(response => response.json())
+            .then(items => {
+                carregaItem(items);
+                addCarrinhoListener();
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
     </script>
 </body>
 

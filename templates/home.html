@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -59,7 +58,7 @@
                 <a href="sobre.html"
                     class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black">Sobre</a>
             </div>
-            <a href="index.html"
+            <a href="../index.html"
                 class="header-menu-item list-group-item list-group-item-action rounded-3 text-center py-1 m-1 text-black"
                 style="width: clamp(226px, 70.625vw, 303.68px);">Sair</a>
         </div>
@@ -70,11 +69,11 @@
         <div id="cart-toast-container" class="toast-container position-fixed top-0 end-0 p-3"></div>
         <section>
             <h2 class="mt-4 ms-2 f16 semibold">Recomendados do mês</h2>
-            <div id="product-container-1" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2"></div>
+            <div id="product-container-1" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1"></div>
         </section>
         <section>
             <h2 class="mt-4 ms-2 f16 semibold">Serviços em alta</h2>
-            <div id="service-container-1" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1 mt-2"></div>
+            <div id="service-container-1" class="agrupador-de-cards d-flex flex-row gap-2 ms-2 me-1"></div>
         </section>
 
         <section class="clamp-mobile d-flex flex-column justify-content-between bg-light-80 mx-auto my-4 p-2 rounded-3">
@@ -117,8 +116,8 @@
         fetch('../data/items.json')
             .then(response => response.json())
             .then(items => {
-                carregaItens(items, "product", 8, "product-container-1");
-                carregaItens(items, "service", 8, "service-container-1");
+                carregaItensCarrossel(items, "product", 8, "product-container-1");
+                carregaItensCarrossel(items, "service", 8, "service-container-1");
                 addCarrinhoListener();
             })
             .catch(error => {
