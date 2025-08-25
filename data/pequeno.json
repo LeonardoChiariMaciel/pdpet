@@ -1,8 +1,9 @@
 [
   {
     "id": "gato",
+    "id-article": "article-gato",
     "nome": "Gato",
-    "descricao_curta": "O gato sem raça definida (SRD) é versátil e único, com variações de tamanho entre 23 e 28 cm e peso que pode ir de 3 a 6 kg.",
+    "descricao_curta": "aaaO gato sem raça definida (SRD) é versátil e único, com variações de tamanho entre 23 e 28 cm e peso que pode ir de 3 a 6 kg.",
     "descricao_detalhada": "Esses gatos têm uma enorme diversidade de cores, pelagens e personalidades. Podem ser mais ativos ou tranquilos, dependendo do ambiente em que vivem. São independentes, mas também podem ser muito carinhosos com seus tutores. Inteligentes e limpos, aprendem rapidamente a usar a caixa de areia e adoram explorar novos espaços.",
     "mais_comprados": [
       {
@@ -34,6 +35,7 @@
   },
   {
     "id": "chihuahua",
+    "id-article": "article-chihuahua",
     "nome": "Chihuahua",
     "descricao_curta": "O Chihuahua é uma das menores raças de cães do mundo, medindo entre 15 e 23 cm e pesando até 3 kg.",
     "descricao_detalhada": "Apesar do tamanho, é valente, ativo e cheio de energia. Costuma ser muito apegado ao tutor e ótimo cão de companhia para ambientes pequenos.",
@@ -65,6 +67,7 @@
   },
   {
     "id": "rato",
+    "id-article": "article-rato",
     "nome": "Rato",
     "descricao_curta": "O rato doméstico é pequeno, ágil e inteligente, pesando entre 200 e 400 g.",
     "descricao_detalhada": "Popular como pet, é sociável, curioso e aprende rapidamente truques e interações. Precisa de ambiente limpo e enriquecido para viver bem.",
@@ -96,6 +99,7 @@
   },
   {
     "id": "yorkshire",
+    "id-article": "article-yorkshire",
     "nome": "Yorkshire Terrier",
     "descricao_curta": "Pequeno e elegante, o Yorkshire mede entre 18 e 23 cm e pesa em torno de 3 a 4 kg.",
     "descricao_detalhada": "É ativo, brincalhão e protetor. Sua pelagem longa exige cuidados regulares, sendo muito popular como cão de companhia.",
@@ -127,6 +131,7 @@
   },
   {
     "id": "hamster",
+    "id-article": "article-hamster",
     "nome": "Hamster",
     "descricao_curta": "O hamster é um pequeno roedor, com 7 a 15 cm e peso de até 200 g.",
     "descricao_detalhada": "É independente, gosta de explorar e tem hábitos noturnos. Precisa de gaiola adequada, roda de exercícios e alimentos balanceados.",
@@ -158,6 +163,7 @@
   },
   {
     "id": "coelho",
+    "id-article": "article-coelho",
     "nome": "Coelho",
     "descricao_curta": "O coelho doméstico pesa entre 1 e 5 kg, dependendo da raça, e tem temperamento dócil.",
     "descricao_detalhada": "Muito sociável, pode viver solto em espaços seguros. Alimenta-se de feno, vegetais e rações específicas. Precisa de enriquecimento ambiental.",
@@ -189,6 +195,7 @@
   },
   {
     "id": "furao",
+    "id-article": "article-furao",
     "nome": "Furão",
     "descricao_curta": "O furão mede entre 30 e 50 cm e pesa de 0,7 a 2 kg.",
     "descricao_detalhada": "É brincalhão, curioso e ativo. Precisa de espaço para explorar, brinquedos e atenção constante do tutor.",
@@ -220,6 +227,7 @@
   },
   {
     "id": "porquinho-india",
+    "id-article": "article-porquinho-da-india",
     "nome": "Porquinho-da-índia",
     "descricao_curta": "O porquinho-da-índia é dócil e sociável, pesando entre 700 g e 1,2 kg.",
     "descricao_detalhada": "Muito popular como pet, gosta de companhia e precisa viver em grupo ou com bastante atenção. Alimenta-se de feno, vegetais frescos e ração.",
@@ -251,6 +259,7 @@
   },
   {
     "id": "calopsita",
+    "id-article": "article-calopsita",
     "nome": "Calopsita",
     "descricao_curta": "Ave carismática, a calopsita mede cerca de 30 cm e pode viver até 20 anos.",
     "descricao_detalhada": "É muito sociável e aprende a interagir com humanos, assobiando e até repetindo sons. Precisa de gaiola ampla e brinquedos.",
@@ -282,6 +291,7 @@
   },
   {
     "id": "poodle",
+    "id-article": "article-poodle",
     "nome": "Poodle",
     "descricao_curta": "Raça versátil, encontrada em portes pequeno, médio e grande, com pelagem encaracolada característica.",
     "descricao_detalhada": "É inteligente, ativo e fácil de treinar. Muito apegado ao tutor, precisa de estímulos físicos e mentais para se manter saudável.",

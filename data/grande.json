@@ -1,452 +1,460 @@
 [
   {
     "id": "cavalo",
+    "id-article": "id-cavalo",
     "nome": "Cavalo",
-    "descricao_curta": "O cavalo é um animal de grande porte, conhecido por sua força, velocidade e companheirismo.",
-    "descricao_detalhada": "Utilizados historicamente para transporte, trabalho e esporte, os cavalos são animais inteligentes e sociais, que formam fortes laços com humanos e outros da mesma espécie. Seu tamanho varia bastante entre raças, podendo ultrapassar 1,70 m de altura na cernelha e pesar mais de 600 kg.",
+    "descricao_curta": "Mamífero herbívoro usado para transporte, esporte e companhia, com porte nobre e musculatura robusta.",
+    "descricao_detalhada": "O cavalo é um animal de grande porte, inteligente e sociável, com forte vínculo com os humanos. Pode ser utilizado em atividades esportivas, no trabalho rural e também como animal de estimação em propriedades. Precisa de espaço amplo, cuidados veterinários e alimentação balanceada.",
     "mais_comprados": [
       {
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       },
-      {
+          {
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       }
     ]
   },
   {
     "id": "vaca",
+    "id-article": "id-vaca",
     "nome": "Vaca",
-    "descricao_curta": "A vaca é um dos principais animais de criação, essencial para a produção de leite e carne.",
-    "descricao_detalhada": "As vacas são ruminantes dóceis e sociais, vivendo em rebanhos. São importantes economicamente e culturalmente em diversas regiões do mundo. Podem pesar entre 400 e 800 kg, dependendo da raça e finalidade de criação.",
-    "mais_comprados": [      {
+    "descricao_curta": "Mamífera ruminante, essencial para a produção de leite e derivados.",
+    "descricao_detalhada": "As vacas são animais dóceis, de grande porte, geralmente criadas em fazendas para a produção de leite e carne. Necessitam de espaço, pasto adequado e acompanhamento veterinário para garantir saúde e produtividade.",
+    "mais_comprados": [{
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       },
-      {
+          {
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       }]
   },
   {
     "id": "boi",
+    "id-article": "id-boi",
     "nome": "Boi",
-    "descricao_curta": "O boi é um bovino de grande porte, criado principalmente para a produção de carne e como animal de trabalho.",
-    "descricao_detalhada": "Com peso que pode ultrapassar 1.000 kg, os bois são robustos e resistentes. Tradicionalmente usados no campo para arar a terra e puxar cargas, também são centrais na pecuária de corte.",
+    "descricao_curta": "Animal de grande porte criado principalmente para corte e trabalhos no campo.",
+    "descricao_detalhada": "O boi é um bovino forte, usado tanto na pecuária de corte quanto como animal de tração em atividades agrícolas. Requer alimentação balanceada e manejo adequado para garantir bem-estar.",
     "mais_comprados": [      {
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       },
-      {
+          {
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       }]
   },
   {
-    "id": "bufalo",
+    "id": "búfalo",
+    "id-article": "id-bufalo",
     "nome": "Búfalo",
-    "descricao_curta": "O búfalo é um bovino de grande porte conhecido por sua força e resistência.",
-    "descricao_detalhada": "Muito valorizados na produção de leite e carne, os búfalos são animais adaptáveis a ambientes úmidos. Podem pesar entre 500 e 1.200 kg e possuem chifres curvados característicos.",
+    "descricao_curta": "Mamífero robusto, criado para leite, carne e trabalho rural.",
+    "descricao_detalhada": "Os búfalos são animais resistentes, muito utilizados em regiões alagadas e também apreciados por seu leite rico em nutrientes. Adaptam-se bem em ambientes de criação extensiva.",
     "mais_comprados": [      {
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       },
-      {
+          {
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       }]
   },
   {
     "id": "jumento",
+    "id-article": "id-jumento",
     "nome": "Jumento",
-    "descricao_curta": "O jumento é um equídeo resistente, utilizado como animal de carga e transporte em diversas regiões.",
-    "descricao_detalhada": "Menor que o cavalo, mas igualmente resistente, o jumento é conhecido por sua rusticidade e capacidade de adaptação a climas áridos. Pode carregar cargas pesadas e desempenha papel vital em áreas rurais.",
+    "descricao_curta": "Animal de trabalho resistente, usado no transporte e em atividades rurais.",
+    "descricao_detalhada": "O jumento é conhecido pela resistência e pela rusticidade, sendo usado no transporte de cargas e como auxiliar em atividades agrícolas. Requer poucos cuidados em comparação a outros animais de grande porte.",
     "mais_comprados": [      {
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       },
-      {
+          {
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       }]
   },
   {
     "id": "avestruz",
+    "id-article": "id-avestruz",
     "nome": "Avestruz",
-    "descricao_curta": "O avestruz é a maior ave do mundo, incapaz de voar, mas extremamente veloz em terra.",
-    "descricao_detalhada": "Originário da África, o avestruz pode atingir até 2,7 metros de altura e pesar mais de 150 kg. É criado para carne, ovos e penas, sendo também um animal de interesse ornamental.",
+    "descricao_curta": "Maior ave do mundo, não voa, mas corre em alta velocidade.",
+    "descricao_detalhada": "O avestruz é criado para produção de carne, couro e penas. É uma ave exótica, de grande porte, que requer áreas abertas e cercadas para manejo adequado.",
     "mais_comprados": [      {
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       },
-      {
+          {
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       }]
   },
   {
     "id": "alce",
+    "id-article": "id-alce",
     "nome": "Alce",
-    "descricao_curta": "O alce é o maior membro da família dos cervídeos, encontrado em regiões frias do hemisfério norte.",
-    "descricao_detalhada": "Com galhadas impressionantes nos machos, o alce pode ultrapassar 2 metros de altura e pesar mais de 600 kg. Vive em florestas boreais e áreas úmidas, sendo um ícone da fauna selvagem.",
+    "descricao_curta": "Cervídeo de grande porte encontrado em regiões frias.",
+    "descricao_detalhada": "O alce é o maior dos cervídeos, vivendo em florestas e tundras. É um animal selvagem, imponente e forte, geralmente associado à fauna de regiões do hemisfério norte.",
     "mais_comprados": [      {
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       },
-      {
+          {
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       }]
   },
   {
     "id": "lhama",
+    "id-article": "id-lhama",
     "nome": "Lhama",
-    "descricao_curta": "A lhama é um camelídeo domesticado dos Andes, usado como animal de carga e por sua lã.",
-    "descricao_detalhada": "De porte médio a grande, as lhamas são dóceis e inteligentes, capazes de transportar cargas por longas distâncias em terrenos montanhosos. Sua lã é macia e utilizada na confecção de roupas típicas.",
+    "descricao_curta": "Mamífero andino usado como animal de carga e pela qualidade de sua lã.",
+    "descricao_detalhada": "A lhama é dócil, adaptada a regiões frias e montanhosas. É usada tanto para transporte quanto para fornecimento de lã macia. Exige cuidados com alimentação e espaço para se movimentar.",
     "mais_comprados": [      {
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       },
-      {
+          {
         "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
         "preco": 79.99,
-        "imagem": "imgs/produtos/capivara.jpg"
+        "imagem": "../imgs/produtos/capivara.jpg"
       },
       {
         "nome": "Ração Golden Seleção Natural para Cães Sênior",
         "preco": 69.90,
-        "imagem": "imgs/produtos/racao-verde.jpg"
+        "imagem": "../imgs/produtos/racao-verde.jpg"
       },
       {
         "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
         "preco": 109.89,
-        "imagem": "imgs/produtos/produto 4.jpg"
+        "imagem": "../imgs/produtos/produto 4.jpg"
       },
       {
         "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
         "preco": 94.99,
-        "imagem": "imgs/produtos/bebedouro.jpg"
+        "imagem": "../imgs/produtos/bebedouro.jpg"
       },
       {
         "nome": "Cama Spike Duplo Cinza",
         "preco": 104.99,
-        "imagem": "imgs/produtos/cama-dicas.jpg"
+        "imagem": "../imgs/produtos/cama-dicas.jpg"
       }]
   }
 ]
