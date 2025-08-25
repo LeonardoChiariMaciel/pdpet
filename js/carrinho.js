@@ -12,7 +12,7 @@ function renderCart() {
 
         article.innerHTML = `
             <article class="clamp-mobile card bg-light-80 d-flex flex-row justify-content-center rounded-3 mb-2">
-                <a href="produto.html" class="text-decoration-none">
+                <a href="item.html?id=2002" class="text-decoration-none">
                     <img class="icon-6-2 m-2 rounded-3" src="${item.imagem}">
                 </a>
                 <div>
