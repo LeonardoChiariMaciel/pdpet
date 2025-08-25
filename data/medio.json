@@ -1,0 +1,254 @@
+{
+  "animais_medio_porte": [
+    {
+      "id": "gato",
+      "nome": "Gato",
+      "descricao_curta": "O gato sem raça definida (SRD) é versátil e único, com variações de tamanho entre 23 e 28 cm e peso que pode ir de 3 a 6 kg.",
+      "descricao_detalhada": "Esses gatos têm uma enorme diversidade de cores, pelagens e personalidades. Podem ser mais ativos ou tranquilos, dependendo do ambiente em que vivem. São independentes, mas também podem ser muito carinhosos com seus tutores. Inteligentes e limpos, aprendem rapidamente a usar a caixa de areia e adoram explorar novos espaços.",
+      "mais_comprados": [
+        {
+          "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
+          "preco": 79.99,
+          "imagem": "imgs/produtos/capivara.jpg"
+        },
+        {
+          "nome": "Ração Golden Seleção Natural para Cães Sênior",
+          "preco": 69.90,
+          "imagem": "imgs/produtos/racao-verde.jpg"
+        },
+        {
+          "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
+          "preco": 109.89,
+          "imagem": "imgs/produtos/produto 4.jpg"
+        },
+        {
+          "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
+          "preco": 94.99,
+          "imagem": "imgs/produtos/bebedouro.jpg"
+        },
+        {
+          "nome": "Cama Spike Duplo Cinza",
+          "preco": 104.99,
+          "imagem": "imgs/produtos/cama-dicas.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ganso",
+      "nome": "Ganso",
+      "descricao_curta": "O ganso é uma ave aquática de médio porte, reconhecida por sua inteligência e comportamento protetor.",
+      "descricao_detalhada": "Gansos são aves sociais que vivem em bandos, comumente associados a ambientes rurais e fazendas. Possuem grande capacidade de adaptação, são ótimos guardiões devido à sua natureza territorial e podem viver muitos anos quando bem cuidados.",
+      "mais_comprados": [{
+          "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
+          "preco": 79.99,
+          "imagem": "imgs/produtos/capivara.jpg"
+        },
+        {
+          "nome": "Ração Golden Seleção Natural para Cães Sênior",
+          "preco": 69.90,
+          "imagem": "imgs/produtos/racao-verde.jpg"
+        },
+        {
+          "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
+          "preco": 109.89,
+          "imagem": "imgs/produtos/produto 4.jpg"
+        },
+        {
+          "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
+          "preco": 94.99,
+          "imagem": "imgs/produtos/bebedouro.jpg"
+        },
+        {
+          "nome": "Cama Spike Duplo Cinza",
+          "preco": 104.99,
+          "imagem": "imgs/produtos/cama-dicas.jpg"
+        }]
+    },
+    {
+      "id": "pato",
+      "nome": "Pato",
+      "descricao_curta": "O pato é uma ave aquática de médio porte, conhecida por sua versatilidade e convivência fácil em ambientes domésticos.",
+      "descricao_detalhada": "Patos são animais resistentes, sociáveis e adaptáveis a diferentes ambientes. Alimentam-se de grãos, insetos e vegetação aquática. São frequentemente criados em áreas rurais tanto pela sua companhia quanto pela produção de ovos.",
+      "mais_comprados": [{
+          "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
+          "preco": 79.99,
+          "imagem": "imgs/produtos/capivara.jpg"
+        },
+        {
+          "nome": "Ração Golden Seleção Natural para Cães Sênior",
+          "preco": 69.90,
+          "imagem": "imgs/produtos/racao-verde.jpg"
+        },
+        {
+          "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
+          "preco": 109.89,
+          "imagem": "imgs/produtos/produto 4.jpg"
+        },
+        {
+          "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
+          "preco": 94.99,
+          "imagem": "imgs/produtos/bebedouro.jpg"
+        },
+        {
+          "nome": "Cama Spike Duplo Cinza",
+          "preco": 104.99,
+          "imagem": "imgs/produtos/cama-dicas.jpg"
+        }]
+    },
+    {
+      "id": "galo",
+      "nome": "Galo",
+      "descricao_curta": "O galo é um símbolo de vitalidade e liderança no galinheiro, desempenhando papel protetor sobre as galinhas.",
+      "descricao_detalhada": "Além de sua característica vocal marcante, o galo é um animal de comportamento ativo e vigilante. Ele protege o grupo contra predadores e mantém a ordem entre as aves. São comuns em criações rurais e pequenas propriedades.",
+      "mais_comprados": [{
+          "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
+          "preco": 79.99,
+          "imagem": "imgs/produtos/capivara.jpg"
+        },
+        {
+          "nome": "Ração Golden Seleção Natural para Cães Sênior",
+          "preco": 69.90,
+          "imagem": "imgs/produtos/racao-verde.jpg"
+        },
+        {
+          "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
+          "preco": 109.89,
+          "imagem": "imgs/produtos/produto 4.jpg"
+        },
+        {
+          "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
+          "preco": 94.99,
+          "imagem": "imgs/produtos/bebedouro.jpg"
+        },
+        {
+          "nome": "Cama Spike Duplo Cinza",
+          "preco": 104.99,
+          "imagem": "imgs/produtos/cama-dicas.jpg"
+        }]
+    },
+    {
+      "id": "ovelha",
+      "nome": "Ovelha",
+      "descricao_curta": "A ovelha é um mamífero de médio porte, dócil e altamente valorizado pela lã, carne e leite.",
+      "descricao_detalhada": "Ovelhas são animais gregários, vivendo em rebanhos e exigindo cuidados básicos de pastagem, água limpa e abrigo. São inteligentes, afetuosas e têm forte instinto de grupo. São essenciais na pecuária e na produção de lã.",
+      "mais_comprados": [{
+          "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
+          "preco": 79.99,
+          "imagem": "imgs/produtos/capivara.jpg"
+        },
+        {
+          "nome": "Ração Golden Seleção Natural para Cães Sênior",
+          "preco": 69.90,
+          "imagem": "imgs/produtos/racao-verde.jpg"
+        },
+        {
+          "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
+          "preco": 109.89,
+          "imagem": "imgs/produtos/produto 4.jpg"
+        },
+        {
+          "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
+          "preco": 94.99,
+          "imagem": "imgs/produtos/bebedouro.jpg"
+        },
+        {
+          "nome": "Cama Spike Duplo Cinza",
+          "preco": 104.99,
+          "imagem": "imgs/produtos/cama-dicas.jpg"
+        }]
+    },
+    {
+      "id": "cocker-spaniel",
+      "nome": "Cocker Spaniel",
+      "descricao_curta": "O Cocker Spaniel é um cão de médio porte, alegre e carinhoso, muito popular como animal de companhia.",
+      "descricao_detalhada": "Com pelagem longa e personalidade dócil, o Cocker Spaniel é um cão ativo, inteligente e afetuoso. Adora atividades ao ar livre e convívio com pessoas. Requer escovação frequente e exercícios regulares para manter-se saudável.",
+      "mais_comprados": [{
+          "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
+          "preco": 79.99,
+          "imagem": "imgs/produtos/capivara.jpg"
+        },
+        {
+          "nome": "Ração Golden Seleção Natural para Cães Sênior",
+          "preco": 69.90,
+          "imagem": "imgs/produtos/racao-verde.jpg"
+        },
+        {
+          "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
+          "preco": 109.89,
+          "imagem": "imgs/produtos/produto 4.jpg"
+        },
+        {
+          "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
+          "preco": 94.99,
+          "imagem": "imgs/produtos/bebedouro.jpg"
+        },
+        {
+          "nome": "Cama Spike Duplo Cinza",
+          "preco": 104.99,
+          "imagem": "imgs/produtos/cama-dicas.jpg"
+        }]
+    },
+    {
+      "id": "gato-maine-coon",
+      "nome": "Gato Maine Coon",
+      "descricao_curta": "O Maine Coon é uma das maiores raças de gatos, robusto, carinhoso e de temperamento equilibrado.",
+      "descricao_detalhada": "Conhecido como o 'gigante gentil', o Maine Coon possui pelagem longa e densa, olhos expressivos e grande porte. Apesar do tamanho, é extremamente afetuoso, sociável e se adapta bem a famílias e outros animais.",
+      "mais_comprados": [{
+          "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
+          "preco": 79.99,
+          "imagem": "imgs/produtos/capivara.jpg"
+        },
+        {
+          "nome": "Ração Golden Seleção Natural para Cães Sênior",
+          "preco": 69.90,
+          "imagem": "imgs/produtos/racao-verde.jpg"
+        },
+        {
+          "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
+          "preco": 109.89,
+          "imagem": "imgs/produtos/produto 4.jpg"
+        },
+        {
+          "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
+          "preco": 94.99,
+          "imagem": "imgs/produtos/bebedouro.jpg"
+        },
+        {
+          "nome": "Cama Spike Duplo Cinza",
+          "preco": 104.99,
+          "imagem": "imgs/produtos/cama-dicas.jpg"
+        }]
+    },
+    {
+      "id": "cao-australiano",
+      "nome": "Cão Australiano",
+      "descricao_curta": "O Cão Australiano, também chamado de Australian Cattle Dog, é um cão de médio porte ativo e inteligente.",
+      "descricao_detalhada": "Criado originalmente para pastoreio, o Cão Australiano é leal, energético e precisa de bastante atividade física e estímulos mentais. É protetor e dedicado à família, sendo um excelente companheiro para quem leva uma vida ativa.",
+      "mais_comprados": [{
+          "nome": "Brinquedo Capivara de Pelúcia PD Pet para Cães",
+          "preco": 79.99,
+          "imagem": "imgs/produtos/capivara.jpg"
+        },
+        {
+          "nome": "Ração Golden Seleção Natural para Cães Sênior",
+          "preco": 69.90,
+          "imagem": "imgs/produtos/racao-verde.jpg"
+        },
+        {
+          "nome": "Antipulgas e Carrapatos NexGard Spectra para Cães",
+          "preco": 109.89,
+          "imagem": "imgs/produtos/produto 4.jpg"
+        },
+        {
+          "nome": "Bebedouro Fonte Spike Rosa para Cães e Gatos",
+          "preco": 94.99,
+          "imagem": "imgs/produtos/bebedouro.jpg"
+        },
+        {
+          "nome": "Cama Spike Duplo Cinza",
+          "preco": 104.99,
+          "imagem": "imgs/produtos/cama-dicas.jpg"
+        }]
+    }
+  ]
+}
