@@ -23,7 +23,7 @@ function carregaItensLista(items, type, containerId) {
                         data-name="${element.title}"
                         data-price="${element.price.toFixed(2)}"
                         data-image="${element.image}">
-                        <img src="imgs/icones/carrinho.png" class="icon-2-5" alt="Adicionar ao carrinho">
+                        <img src="../imgs/icones/carrinho.png" class="icon-2-5" alt="Adicionar ao carrinho">
                     </a>
                 </div>
             `;
